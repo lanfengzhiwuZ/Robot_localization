@@ -1,0 +1,1571 @@
+2024-09-21 16:57:38,550 - Model - INFO - PARAMETER ...
+2024-09-21 16:57:38,550 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=16, epoch=150, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir=None, decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-09-21 16:57:38,565 - Model - INFO - The number of training data is: 244
+2024-09-21 16:57:38,565 - Model - INFO - The number of test data is: 62
+2024-09-21 16:57:39,906 - Model - INFO - No existing model, starting training from scratch...
+2024-09-21 16:57:40,205 - Model - INFO - Epoch 1 (1/150):
+2024-09-21 16:57:40,205 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:00:32,721 - Model - INFO - Train accuracy is: 0.42501
+2024-09-21 17:00:52,603 - Model - INFO - eval mIoU of carrage_support 0.409113
+2024-09-21 17:00:52,603 - Model - INFO - eval mIoU of crane          0.170386
+2024-09-21 17:00:52,604 - Model - INFO - eval mIoU of crane_suspension_bracket 0.297689
+2024-09-21 17:00:52,604 - Model - INFO - Epoch 1 test Accuracy: 0.559318  Class avg mIOU: 0.292396   Inctance avg mIOU: 0.296161
+2024-09-21 17:00:52,604 - Model - INFO - Save model...
+2024-09-21 17:00:52,604 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:00:52,698 - Model - INFO - Saving model....
+2024-09-21 17:00:52,699 - Model - INFO - Best accuracy is: 0.55932
+2024-09-21 17:00:52,700 - Model - INFO - Best class avg mIOU is: 0.29240
+2024-09-21 17:00:52,700 - Model - INFO - Best inctance avg mIOU is: 0.29616
+2024-09-21 17:00:52,708 - Model - INFO - Epoch 2 (2/150):
+2024-09-21 17:00:52,708 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:03:45,226 - Model - INFO - Train accuracy is: 0.66388
+2024-09-21 17:04:04,531 - Model - INFO - eval mIoU of carrage_support 0.409346
+2024-09-21 17:04:04,531 - Model - INFO - eval mIoU of crane          0.503035
+2024-09-21 17:04:04,531 - Model - INFO - eval mIoU of crane_suspension_bracket 0.306398
+2024-09-21 17:04:04,532 - Model - INFO - Epoch 2 test Accuracy: 0.695872  Class avg mIOU: 0.406260   Inctance avg mIOU: 0.406359
+2024-09-21 17:04:04,532 - Model - INFO - Save model...
+2024-09-21 17:04:04,532 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:04:04,624 - Model - INFO - Saving model....
+2024-09-21 17:04:04,624 - Model - INFO - Best accuracy is: 0.69587
+2024-09-21 17:04:04,624 - Model - INFO - Best class avg mIOU is: 0.40626
+2024-09-21 17:04:04,625 - Model - INFO - Best inctance avg mIOU is: 0.40636
+2024-09-21 17:04:04,631 - Model - INFO - Epoch 3 (3/150):
+2024-09-21 17:04:04,631 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:06:56,951 - Model - INFO - Train accuracy is: 0.76257
+2024-09-21 17:07:16,386 - Model - INFO - eval mIoU of carrage_support 0.471024
+2024-09-21 17:07:16,386 - Model - INFO - eval mIoU of crane          0.788880
+2024-09-21 17:07:16,387 - Model - INFO - eval mIoU of crane_suspension_bracket 0.455817
+2024-09-21 17:07:16,387 - Model - INFO - Epoch 3 test Accuracy: 0.796765  Class avg mIOU: 0.571907   Inctance avg mIOU: 0.568653
+2024-09-21 17:07:16,387 - Model - INFO - Save model...
+2024-09-21 17:07:16,387 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:07:16,492 - Model - INFO - Saving model....
+2024-09-21 17:07:16,493 - Model - INFO - Best accuracy is: 0.79676
+2024-09-21 17:07:16,494 - Model - INFO - Best class avg mIOU is: 0.57191
+2024-09-21 17:07:16,494 - Model - INFO - Best inctance avg mIOU is: 0.56865
+2024-09-21 17:07:16,499 - Model - INFO - Epoch 4 (4/150):
+2024-09-21 17:07:16,499 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:10:09,176 - Model - INFO - Train accuracy is: 0.81773
+2024-09-21 17:10:28,788 - Model - INFO - eval mIoU of carrage_support 0.534650
+2024-09-21 17:10:28,788 - Model - INFO - eval mIoU of crane          0.913651
+2024-09-21 17:10:28,788 - Model - INFO - eval mIoU of crane_suspension_bracket 0.499886
+2024-09-21 17:10:28,789 - Model - INFO - Epoch 4 test Accuracy: 0.827290  Class avg mIOU: 0.649396   Inctance avg mIOU: 0.645694
+2024-09-21 17:10:28,789 - Model - INFO - Save model...
+2024-09-21 17:10:28,789 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:10:28,886 - Model - INFO - Saving model....
+2024-09-21 17:10:28,886 - Model - INFO - Best accuracy is: 0.82729
+2024-09-21 17:10:28,888 - Model - INFO - Best class avg mIOU is: 0.64940
+2024-09-21 17:10:28,888 - Model - INFO - Best inctance avg mIOU is: 0.64569
+2024-09-21 17:10:28,895 - Model - INFO - Epoch 5 (5/150):
+2024-09-21 17:10:28,895 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:13:21,390 - Model - INFO - Train accuracy is: 0.84115
+2024-09-21 17:13:41,032 - Model - INFO - eval mIoU of carrage_support 0.590071
+2024-09-21 17:13:41,032 - Model - INFO - eval mIoU of crane          0.788295
+2024-09-21 17:13:41,032 - Model - INFO - eval mIoU of crane_suspension_bracket 0.396656
+2024-09-21 17:13:41,033 - Model - INFO - Epoch 5 test Accuracy: 0.777982  Class avg mIOU: 0.591674   Inctance avg mIOU: 0.591622
+2024-09-21 17:13:41,033 - Model - INFO - Best accuracy is: 0.82729
+2024-09-21 17:13:41,033 - Model - INFO - Best class avg mIOU is: 0.64940
+2024-09-21 17:13:41,033 - Model - INFO - Best inctance avg mIOU is: 0.64569
+2024-09-21 17:13:41,040 - Model - INFO - Epoch 6 (6/150):
+2024-09-21 17:13:41,042 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:16:33,561 - Model - INFO - Train accuracy is: 0.85714
+2024-09-21 17:16:53,323 - Model - INFO - eval mIoU of carrage_support 0.652547
+2024-09-21 17:16:53,323 - Model - INFO - eval mIoU of crane          0.894000
+2024-09-21 17:16:53,324 - Model - INFO - eval mIoU of crane_suspension_bracket 0.505463
+2024-09-21 17:16:53,324 - Model - INFO - Epoch 6 test Accuracy: 0.853673  Class avg mIOU: 0.684004   Inctance avg mIOU: 0.682989
+2024-09-21 17:16:53,324 - Model - INFO - Save model...
+2024-09-21 17:16:53,325 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:16:53,420 - Model - INFO - Saving model....
+2024-09-21 17:16:53,420 - Model - INFO - Best accuracy is: 0.85367
+2024-09-21 17:16:53,422 - Model - INFO - Best class avg mIOU is: 0.68400
+2024-09-21 17:16:53,422 - Model - INFO - Best inctance avg mIOU is: 0.68299
+2024-09-21 17:16:53,429 - Model - INFO - Epoch 7 (7/150):
+2024-09-21 17:16:53,429 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:19:46,364 - Model - INFO - Train accuracy is: 0.86652
+2024-09-21 17:20:05,877 - Model - INFO - eval mIoU of carrage_support 0.638277
+2024-09-21 17:20:05,878 - Model - INFO - eval mIoU of crane          0.940245
+2024-09-21 17:20:05,878 - Model - INFO - eval mIoU of crane_suspension_bracket 0.387721
+2024-09-21 17:20:05,878 - Model - INFO - Epoch 7 test Accuracy: 0.817643  Class avg mIOU: 0.655414   Inctance avg mIOU: 0.654862
+2024-09-21 17:20:05,879 - Model - INFO - Best accuracy is: 0.85367
+2024-09-21 17:20:05,879 - Model - INFO - Best class avg mIOU is: 0.68400
+2024-09-21 17:20:05,879 - Model - INFO - Best inctance avg mIOU is: 0.68299
+2024-09-21 17:20:05,887 - Model - INFO - Epoch 8 (8/150):
+2024-09-21 17:20:05,887 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:22:59,156 - Model - INFO - Train accuracy is: 0.87809
+2024-09-21 17:23:18,634 - Model - INFO - eval mIoU of carrage_support 0.616093
+2024-09-21 17:23:18,636 - Model - INFO - eval mIoU of crane          0.934393
+2024-09-21 17:23:18,636 - Model - INFO - eval mIoU of crane_suspension_bracket 0.452129
+2024-09-21 17:23:18,636 - Model - INFO - Epoch 8 test Accuracy: 0.830078  Class avg mIOU: 0.667538   Inctance avg mIOU: 0.665879
+2024-09-21 17:23:18,636 - Model - INFO - Best accuracy is: 0.85367
+2024-09-21 17:23:18,636 - Model - INFO - Best class avg mIOU is: 0.68400
+2024-09-21 17:23:18,636 - Model - INFO - Best inctance avg mIOU is: 0.68299
+2024-09-21 17:23:18,644 - Model - INFO - Epoch 9 (9/150):
+2024-09-21 17:23:18,644 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:26:11,690 - Model - INFO - Train accuracy is: 0.89449
+2024-09-21 17:26:31,215 - Model - INFO - eval mIoU of carrage_support 0.560286
+2024-09-21 17:26:31,216 - Model - INFO - eval mIoU of crane          0.916694
+2024-09-21 17:26:31,216 - Model - INFO - eval mIoU of crane_suspension_bracket 0.490717
+2024-09-21 17:26:31,216 - Model - INFO - Epoch 9 test Accuracy: 0.801797  Class avg mIOU: 0.655899   Inctance avg mIOU: 0.652815
+2024-09-21 17:26:31,217 - Model - INFO - Best accuracy is: 0.85367
+2024-09-21 17:26:31,217 - Model - INFO - Best class avg mIOU is: 0.68400
+2024-09-21 17:26:31,217 - Model - INFO - Best inctance avg mIOU is: 0.68299
+2024-09-21 17:26:31,225 - Model - INFO - Epoch 10 (10/150):
+2024-09-21 17:26:31,225 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:29:24,554 - Model - INFO - Train accuracy is: 0.89501
+2024-09-21 17:29:43,967 - Model - INFO - eval mIoU of carrage_support 0.607132
+2024-09-21 17:29:43,967 - Model - INFO - eval mIoU of crane          0.929613
+2024-09-21 17:29:43,968 - Model - INFO - eval mIoU of crane_suspension_bracket 0.545595
+2024-09-21 17:29:43,968 - Model - INFO - Epoch 10 test Accuracy: 0.862124  Class avg mIOU: 0.694113   Inctance avg mIOU: 0.691307
+2024-09-21 17:29:43,969 - Model - INFO - Save model...
+2024-09-21 17:29:43,969 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:29:44,059 - Model - INFO - Saving model....
+2024-09-21 17:29:44,060 - Model - INFO - Best accuracy is: 0.86212
+2024-09-21 17:29:44,061 - Model - INFO - Best class avg mIOU is: 0.69411
+2024-09-21 17:29:44,061 - Model - INFO - Best inctance avg mIOU is: 0.69131
+2024-09-21 17:29:44,068 - Model - INFO - Epoch 11 (11/150):
+2024-09-21 17:29:44,068 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:32:37,123 - Model - INFO - Train accuracy is: 0.89433
+2024-09-21 17:32:56,746 - Model - INFO - eval mIoU of carrage_support 0.626022
+2024-09-21 17:32:56,746 - Model - INFO - eval mIoU of crane          0.922769
+2024-09-21 17:32:56,746 - Model - INFO - eval mIoU of crane_suspension_bracket 0.432912
+2024-09-21 17:32:56,747 - Model - INFO - Epoch 11 test Accuracy: 0.844632  Class avg mIOU: 0.660568   Inctance avg mIOU: 0.659453
+2024-09-21 17:32:56,747 - Model - INFO - Best accuracy is: 0.86212
+2024-09-21 17:32:56,747 - Model - INFO - Best class avg mIOU is: 0.69411
+2024-09-21 17:32:56,748 - Model - INFO - Best inctance avg mIOU is: 0.69131
+2024-09-21 17:32:56,754 - Model - INFO - Epoch 12 (12/150):
+2024-09-21 17:32:56,755 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:35:49,935 - Model - INFO - Train accuracy is: 0.89783
+2024-09-21 17:36:09,433 - Model - INFO - eval mIoU of carrage_support 0.690297
+2024-09-21 17:36:09,434 - Model - INFO - eval mIoU of crane          0.904328
+2024-09-21 17:36:09,434 - Model - INFO - eval mIoU of crane_suspension_bracket 0.499196
+2024-09-21 17:36:09,434 - Model - INFO - Epoch 12 test Accuracy: 0.870779  Class avg mIOU: 0.697940   Inctance avg mIOU: 0.697694
+2024-09-21 17:36:09,435 - Model - INFO - Save model...
+2024-09-21 17:36:09,435 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:36:09,535 - Model - INFO - Saving model....
+2024-09-21 17:36:09,535 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:36:09,536 - Model - INFO - Best class avg mIOU is: 0.69794
+2024-09-21 17:36:09,537 - Model - INFO - Best inctance avg mIOU is: 0.69769
+2024-09-21 17:36:09,543 - Model - INFO - Epoch 13 (13/150):
+2024-09-21 17:36:09,543 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:39:02,660 - Model - INFO - Train accuracy is: 0.89640
+2024-09-21 17:39:22,171 - Model - INFO - eval mIoU of carrage_support 0.680868
+2024-09-21 17:39:22,171 - Model - INFO - eval mIoU of crane          0.943979
+2024-09-21 17:39:22,172 - Model - INFO - eval mIoU of crane_suspension_bracket 0.436329
+2024-09-21 17:39:22,172 - Model - INFO - Epoch 13 test Accuracy: 0.863281  Class avg mIOU: 0.687059   Inctance avg mIOU: 0.686859
+2024-09-21 17:39:22,172 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:39:22,173 - Model - INFO - Best class avg mIOU is: 0.69794
+2024-09-21 17:39:22,173 - Model - INFO - Best inctance avg mIOU is: 0.69769
+2024-09-21 17:39:22,179 - Model - INFO - Epoch 14 (14/150):
+2024-09-21 17:39:22,181 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:42:15,269 - Model - INFO - Train accuracy is: 0.90810
+2024-09-21 17:42:34,719 - Model - INFO - eval mIoU of carrage_support 0.663129
+2024-09-21 17:42:34,719 - Model - INFO - eval mIoU of crane          0.928430
+2024-09-21 17:42:34,719 - Model - INFO - eval mIoU of crane_suspension_bracket 0.452428
+2024-09-21 17:42:34,719 - Model - INFO - Epoch 14 test Accuracy: 0.857217  Class avg mIOU: 0.681329   Inctance avg mIOU: 0.680742
+2024-09-21 17:42:34,720 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:42:34,720 - Model - INFO - Best class avg mIOU is: 0.69794
+2024-09-21 17:42:34,720 - Model - INFO - Best inctance avg mIOU is: 0.69769
+2024-09-21 17:42:34,727 - Model - INFO - Epoch 15 (15/150):
+2024-09-21 17:42:34,727 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:45:27,766 - Model - INFO - Train accuracy is: 0.90469
+2024-09-21 17:45:47,242 - Model - INFO - eval mIoU of carrage_support 0.647824
+2024-09-21 17:45:47,242 - Model - INFO - eval mIoU of crane          0.937822
+2024-09-21 17:45:47,243 - Model - INFO - eval mIoU of crane_suspension_bracket 0.519174
+2024-09-21 17:45:47,243 - Model - INFO - Epoch 15 test Accuracy: 0.869495  Class avg mIOU: 0.701606   Inctance avg mIOU: 0.699872
+2024-09-21 17:45:47,243 - Model - INFO - Save model...
+2024-09-21 17:45:47,243 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:45:47,340 - Model - INFO - Saving model....
+2024-09-21 17:45:47,340 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:45:47,341 - Model - INFO - Best class avg mIOU is: 0.70161
+2024-09-21 17:45:47,341 - Model - INFO - Best inctance avg mIOU is: 0.69987
+2024-09-21 17:45:47,348 - Model - INFO - Epoch 16 (16/150):
+2024-09-21 17:45:47,348 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:48:40,634 - Model - INFO - Train accuracy is: 0.92095
+2024-09-21 17:49:00,082 - Model - INFO - eval mIoU of carrage_support 0.739791
+2024-09-21 17:49:00,082 - Model - INFO - eval mIoU of crane          0.925185
+2024-09-21 17:49:00,083 - Model - INFO - eval mIoU of crane_suspension_bracket 0.453068
+2024-09-21 17:49:00,083 - Model - INFO - Epoch 16 test Accuracy: 0.864998  Class avg mIOU: 0.706015   Inctance avg mIOU: 0.707104
+2024-09-21 17:49:00,083 - Model - INFO - Save model...
+2024-09-21 17:49:00,083 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:49:00,168 - Model - INFO - Saving model....
+2024-09-21 17:49:00,169 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:49:00,169 - Model - INFO - Best class avg mIOU is: 0.70601
+2024-09-21 17:49:00,170 - Model - INFO - Best inctance avg mIOU is: 0.70710
+2024-09-21 17:49:00,174 - Model - INFO - Epoch 17 (17/150):
+2024-09-21 17:49:00,174 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:51:53,072 - Model - INFO - Train accuracy is: 0.92723
+2024-09-21 17:52:12,663 - Model - INFO - eval mIoU of carrage_support 0.713107
+2024-09-21 17:52:12,663 - Model - INFO - eval mIoU of crane          0.947452
+2024-09-21 17:52:12,665 - Model - INFO - eval mIoU of crane_suspension_bracket 0.499310
+2024-09-21 17:52:12,665 - Model - INFO - Epoch 17 test Accuracy: 0.870361  Class avg mIOU: 0.719957   Inctance avg mIOU: 0.719736
+2024-09-21 17:52:12,665 - Model - INFO - Save model...
+2024-09-21 17:52:12,665 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 17:52:12,774 - Model - INFO - Saving model....
+2024-09-21 17:52:12,774 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:52:12,776 - Model - INFO - Best class avg mIOU is: 0.71996
+2024-09-21 17:52:12,776 - Model - INFO - Best inctance avg mIOU is: 0.71974
+2024-09-21 17:52:12,782 - Model - INFO - Epoch 18 (18/150):
+2024-09-21 17:52:12,782 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:55:05,981 - Model - INFO - Train accuracy is: 0.92785
+2024-09-21 17:55:25,491 - Model - INFO - eval mIoU of carrage_support 0.623348
+2024-09-21 17:55:25,491 - Model - INFO - eval mIoU of crane          0.931091
+2024-09-21 17:55:25,492 - Model - INFO - eval mIoU of crane_suspension_bracket 0.487675
+2024-09-21 17:55:25,492 - Model - INFO - Epoch 18 test Accuracy: 0.860029  Class avg mIOU: 0.680705   Inctance avg mIOU: 0.678854
+2024-09-21 17:55:25,493 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:55:25,493 - Model - INFO - Best class avg mIOU is: 0.71996
+2024-09-21 17:55:25,493 - Model - INFO - Best inctance avg mIOU is: 0.71974
+2024-09-21 17:55:25,502 - Model - INFO - Epoch 19 (19/150):
+2024-09-21 17:55:25,502 - Model - INFO - Learning rate:0.001000
+2024-09-21 17:58:18,498 - Model - INFO - Train accuracy is: 0.91937
+2024-09-21 17:58:38,059 - Model - INFO - eval mIoU of carrage_support 0.700658
+2024-09-21 17:58:38,060 - Model - INFO - eval mIoU of crane          0.932588
+2024-09-21 17:58:38,061 - Model - INFO - eval mIoU of crane_suspension_bracket 0.457391
+2024-09-21 17:58:38,061 - Model - INFO - Epoch 19 test Accuracy: 0.852508  Class avg mIOU: 0.696879   Inctance avg mIOU: 0.697001
+2024-09-21 17:58:38,061 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 17:58:38,061 - Model - INFO - Best class avg mIOU is: 0.71996
+2024-09-21 17:58:38,061 - Model - INFO - Best inctance avg mIOU is: 0.71974
+2024-09-21 17:58:38,069 - Model - INFO - Epoch 20 (20/150):
+2024-09-21 17:58:38,070 - Model - INFO - Learning rate:0.001000
+2024-09-21 18:01:31,202 - Model - INFO - Train accuracy is: 0.92391
+2024-09-21 18:01:50,659 - Model - INFO - eval mIoU of carrage_support 0.710750
+2024-09-21 18:01:50,660 - Model - INFO - eval mIoU of crane          0.861663
+2024-09-21 18:01:50,660 - Model - INFO - eval mIoU of crane_suspension_bracket 0.439482
+2024-09-21 18:01:50,662 - Model - INFO - Epoch 20 test Accuracy: 0.838631  Class avg mIOU: 0.670631   Inctance avg mIOU: 0.671925
+2024-09-21 18:01:50,662 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 18:01:50,662 - Model - INFO - Best class avg mIOU is: 0.71996
+2024-09-21 18:01:50,662 - Model - INFO - Best inctance avg mIOU is: 0.71974
+2024-09-21 18:01:50,671 - Model - INFO - Epoch 21 (21/150):
+2024-09-21 18:01:50,671 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:04:43,676 - Model - INFO - Train accuracy is: 0.93017
+2024-09-21 18:05:03,242 - Model - INFO - eval mIoU of carrage_support 0.725597
+2024-09-21 18:05:03,242 - Model - INFO - eval mIoU of crane          0.934896
+2024-09-21 18:05:03,243 - Model - INFO - eval mIoU of crane_suspension_bracket 0.490258
+2024-09-21 18:05:03,243 - Model - INFO - Epoch 21 test Accuracy: 0.865896  Class avg mIOU: 0.716917   Inctance avg mIOU: 0.717197
+2024-09-21 18:05:03,243 - Model - INFO - Best accuracy is: 0.87078
+2024-09-21 18:05:03,244 - Model - INFO - Best class avg mIOU is: 0.71996
+2024-09-21 18:05:03,244 - Model - INFO - Best inctance avg mIOU is: 0.71974
+2024-09-21 18:05:03,253 - Model - INFO - Epoch 22 (22/150):
+2024-09-21 18:05:03,253 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:07:56,548 - Model - INFO - Train accuracy is: 0.93868
+2024-09-21 18:08:16,048 - Model - INFO - eval mIoU of carrage_support 0.742214
+2024-09-21 18:08:16,048 - Model - INFO - eval mIoU of crane          0.938145
+2024-09-21 18:08:16,049 - Model - INFO - eval mIoU of crane_suspension_bracket 0.514400
+2024-09-21 18:08:16,049 - Model - INFO - Epoch 22 test Accuracy: 0.874685  Class avg mIOU: 0.731586   Inctance avg mIOU: 0.731929
+2024-09-21 18:08:16,050 - Model - INFO - Save model...
+2024-09-21 18:08:16,050 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 18:08:16,152 - Model - INFO - Saving model....
+2024-09-21 18:08:16,152 - Model - INFO - Best accuracy is: 0.87468
+2024-09-21 18:08:16,153 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:08:16,153 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:08:16,159 - Model - INFO - Epoch 23 (23/150):
+2024-09-21 18:08:16,159 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:11:09,141 - Model - INFO - Train accuracy is: 0.94166
+2024-09-21 18:11:28,721 - Model - INFO - eval mIoU of carrage_support 0.683856
+2024-09-21 18:11:28,722 - Model - INFO - eval mIoU of crane          0.942673
+2024-09-21 18:11:28,722 - Model - INFO - eval mIoU of crane_suspension_bracket 0.498206
+2024-09-21 18:11:28,722 - Model - INFO - Epoch 23 test Accuracy: 0.875315  Class avg mIOU: 0.708245   Inctance avg mIOU: 0.707458
+2024-09-21 18:11:28,723 - Model - INFO - Best accuracy is: 0.87532
+2024-09-21 18:11:28,723 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:11:28,723 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:11:28,729 - Model - INFO - Epoch 24 (24/150):
+2024-09-21 18:11:28,729 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:14:22,008 - Model - INFO - Train accuracy is: 0.94517
+2024-09-21 18:14:41,542 - Model - INFO - eval mIoU of carrage_support 0.721641
+2024-09-21 18:14:41,542 - Model - INFO - eval mIoU of crane          0.936924
+2024-09-21 18:14:41,542 - Model - INFO - eval mIoU of crane_suspension_bracket 0.516878
+2024-09-21 18:14:41,543 - Model - INFO - Epoch 24 test Accuracy: 0.877174  Class avg mIOU: 0.725148   Inctance avg mIOU: 0.725034
+2024-09-21 18:14:41,543 - Model - INFO - Best accuracy is: 0.87717
+2024-09-21 18:14:41,544 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:14:41,544 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:14:41,554 - Model - INFO - Epoch 25 (25/150):
+2024-09-21 18:14:41,554 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:17:34,596 - Model - INFO - Train accuracy is: 0.94808
+2024-09-21 18:17:54,142 - Model - INFO - eval mIoU of carrage_support 0.756332
+2024-09-21 18:17:54,142 - Model - INFO - eval mIoU of crane          0.954183
+2024-09-21 18:17:54,143 - Model - INFO - eval mIoU of crane_suspension_bracket 0.455907
+2024-09-21 18:17:54,143 - Model - INFO - Epoch 25 test Accuracy: 0.871661  Class avg mIOU: 0.722141   Inctance avg mIOU: 0.723244
+2024-09-21 18:17:54,143 - Model - INFO - Best accuracy is: 0.87717
+2024-09-21 18:17:54,144 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:17:54,144 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:17:54,151 - Model - INFO - Epoch 26 (26/150):
+2024-09-21 18:17:54,151 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:20:47,399 - Model - INFO - Train accuracy is: 0.94701
+2024-09-21 18:21:06,845 - Model - INFO - eval mIoU of carrage_support 0.681908
+2024-09-21 18:21:06,845 - Model - INFO - eval mIoU of crane          0.945787
+2024-09-21 18:21:06,846 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534488
+2024-09-21 18:21:06,846 - Model - INFO - Epoch 26 test Accuracy: 0.878969  Class avg mIOU: 0.720728   Inctance avg mIOU: 0.719475
+2024-09-21 18:21:06,846 - Model - INFO - Best accuracy is: 0.87897
+2024-09-21 18:21:06,847 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:21:06,847 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:21:06,856 - Model - INFO - Epoch 27 (27/150):
+2024-09-21 18:21:06,856 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:23:59,986 - Model - INFO - Train accuracy is: 0.94948
+2024-09-21 18:24:19,439 - Model - INFO - eval mIoU of carrage_support 0.734261
+2024-09-21 18:24:19,439 - Model - INFO - eval mIoU of crane          0.945317
+2024-09-21 18:24:19,440 - Model - INFO - eval mIoU of crane_suspension_bracket 0.492060
+2024-09-21 18:24:19,440 - Model - INFO - Epoch 27 test Accuracy: 0.869928  Class avg mIOU: 0.723880   Inctance avg mIOU: 0.724214
+2024-09-21 18:24:19,440 - Model - INFO - Best accuracy is: 0.87897
+2024-09-21 18:24:19,440 - Model - INFO - Best class avg mIOU is: 0.73159
+2024-09-21 18:24:19,441 - Model - INFO - Best inctance avg mIOU is: 0.73193
+2024-09-21 18:24:19,446 - Model - INFO - Epoch 28 (28/150):
+2024-09-21 18:24:19,446 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:27:12,598 - Model - INFO - Train accuracy is: 0.94959
+2024-09-21 18:27:32,098 - Model - INFO - eval mIoU of carrage_support 0.729730
+2024-09-21 18:27:32,099 - Model - INFO - eval mIoU of crane          0.939788
+2024-09-21 18:27:32,099 - Model - INFO - eval mIoU of crane_suspension_bracket 0.532200
+2024-09-21 18:27:32,099 - Model - INFO - Epoch 28 test Accuracy: 0.879576  Class avg mIOU: 0.733906   Inctance avg mIOU: 0.733771
+2024-09-21 18:27:32,100 - Model - INFO - Save model...
+2024-09-21 18:27:32,100 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 18:27:32,199 - Model - INFO - Saving model....
+2024-09-21 18:27:32,199 - Model - INFO - Best accuracy is: 0.87958
+2024-09-21 18:27:32,201 - Model - INFO - Best class avg mIOU is: 0.73391
+2024-09-21 18:27:32,201 - Model - INFO - Best inctance avg mIOU is: 0.73377
+2024-09-21 18:27:32,206 - Model - INFO - Epoch 29 (29/150):
+2024-09-21 18:27:32,206 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:30:25,263 - Model - INFO - Train accuracy is: 0.94968
+2024-09-21 18:30:44,858 - Model - INFO - eval mIoU of carrage_support 0.762314
+2024-09-21 18:30:44,858 - Model - INFO - eval mIoU of crane          0.950749
+2024-09-21 18:30:44,858 - Model - INFO - eval mIoU of crane_suspension_bracket 0.571920
+2024-09-21 18:30:44,859 - Model - INFO - Epoch 29 test Accuracy: 0.893767  Class avg mIOU: 0.761661   Inctance avg mIOU: 0.761682
+2024-09-21 18:30:44,859 - Model - INFO - Save model...
+2024-09-21 18:30:44,859 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 18:30:44,958 - Model - INFO - Saving model....
+2024-09-21 18:30:44,959 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:30:44,960 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:30:44,960 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:30:44,966 - Model - INFO - Epoch 30 (30/150):
+2024-09-21 18:30:44,966 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:33:38,273 - Model - INFO - Train accuracy is: 0.94775
+2024-09-21 18:33:57,720 - Model - INFO - eval mIoU of carrage_support 0.746070
+2024-09-21 18:33:57,721 - Model - INFO - eval mIoU of crane          0.952342
+2024-09-21 18:33:57,721 - Model - INFO - eval mIoU of crane_suspension_bracket 0.550840
+2024-09-21 18:33:57,721 - Model - INFO - Epoch 30 test Accuracy: 0.888294  Class avg mIOU: 0.749750   Inctance avg mIOU: 0.749632
+2024-09-21 18:33:57,722 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:33:57,722 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:33:57,722 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:33:57,731 - Model - INFO - Epoch 31 (31/150):
+2024-09-21 18:33:57,731 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:36:50,920 - Model - INFO - Train accuracy is: 0.94974
+2024-09-21 18:37:10,422 - Model - INFO - eval mIoU of carrage_support 0.742483
+2024-09-21 18:37:10,422 - Model - INFO - eval mIoU of crane          0.950310
+2024-09-21 18:37:10,422 - Model - INFO - eval mIoU of crane_suspension_bracket 0.522459
+2024-09-21 18:37:10,423 - Model - INFO - Epoch 31 test Accuracy: 0.887869  Class avg mIOU: 0.738417   Inctance avg mIOU: 0.738549
+2024-09-21 18:37:10,423 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:37:10,423 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:37:10,423 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:37:10,432 - Model - INFO - Epoch 32 (32/150):
+2024-09-21 18:37:10,432 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:40:04,630 - Model - INFO - Train accuracy is: 0.95472
+2024-09-21 18:40:24,130 - Model - INFO - eval mIoU of carrage_support 0.753830
+2024-09-21 18:40:24,130 - Model - INFO - eval mIoU of crane          0.940379
+2024-09-21 18:40:24,131 - Model - INFO - eval mIoU of crane_suspension_bracket 0.516349
+2024-09-21 18:40:24,132 - Model - INFO - Epoch 32 test Accuracy: 0.882442  Class avg mIOU: 0.736852   Inctance avg mIOU: 0.737400
+2024-09-21 18:40:24,132 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:40:24,133 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:40:24,134 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:40:24,143 - Model - INFO - Epoch 33 (33/150):
+2024-09-21 18:40:24,143 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:43:17,067 - Model - INFO - Train accuracy is: 0.95390
+2024-09-21 18:43:36,653 - Model - INFO - eval mIoU of carrage_support 0.714197
+2024-09-21 18:43:36,654 - Model - INFO - eval mIoU of crane          0.955217
+2024-09-21 18:43:36,654 - Model - INFO - eval mIoU of crane_suspension_bracket 0.526468
+2024-09-21 18:43:36,654 - Model - INFO - Epoch 33 test Accuracy: 0.891176  Class avg mIOU: 0.731961   Inctance avg mIOU: 0.731388
+2024-09-21 18:43:36,655 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:43:36,655 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:43:36,656 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:43:36,663 - Model - INFO - Epoch 34 (34/150):
+2024-09-21 18:43:36,663 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:46:29,823 - Model - INFO - Train accuracy is: 0.95449
+2024-09-21 18:46:49,357 - Model - INFO - eval mIoU of carrage_support 0.759672
+2024-09-21 18:46:49,357 - Model - INFO - eval mIoU of crane          0.956143
+2024-09-21 18:46:49,357 - Model - INFO - eval mIoU of crane_suspension_bracket 0.551055
+2024-09-21 18:46:49,358 - Model - INFO - Epoch 34 test Accuracy: 0.883443  Class avg mIOU: 0.755624   Inctance avg mIOU: 0.755754
+2024-09-21 18:46:49,358 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:46:49,358 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:46:49,359 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:46:49,365 - Model - INFO - Epoch 35 (35/150):
+2024-09-21 18:46:49,366 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:49:42,418 - Model - INFO - Train accuracy is: 0.95435
+2024-09-21 18:50:01,976 - Model - INFO - eval mIoU of carrage_support 0.763768
+2024-09-21 18:50:01,977 - Model - INFO - eval mIoU of crane          0.956140
+2024-09-21 18:50:01,978 - Model - INFO - eval mIoU of crane_suspension_bracket 0.510052
+2024-09-21 18:50:01,978 - Model - INFO - Epoch 35 test Accuracy: 0.872015  Class avg mIOU: 0.743320   Inctance avg mIOU: 0.743980
+2024-09-21 18:50:01,978 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:50:01,979 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:50:01,979 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:50:01,986 - Model - INFO - Epoch 36 (36/150):
+2024-09-21 18:50:01,986 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:52:55,212 - Model - INFO - Train accuracy is: 0.95447
+2024-09-21 18:53:14,665 - Model - INFO - eval mIoU of carrage_support 0.741298
+2024-09-21 18:53:14,665 - Model - INFO - eval mIoU of crane          0.956086
+2024-09-21 18:53:14,666 - Model - INFO - eval mIoU of crane_suspension_bracket 0.506980
+2024-09-21 18:53:14,666 - Model - INFO - Epoch 36 test Accuracy: 0.876662  Class avg mIOU: 0.734788   Inctance avg mIOU: 0.734998
+2024-09-21 18:53:14,666 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:53:14,667 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:53:14,667 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:53:14,673 - Model - INFO - Epoch 37 (37/150):
+2024-09-21 18:53:14,673 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:56:07,774 - Model - INFO - Train accuracy is: 0.95374
+2024-09-21 18:56:27,369 - Model - INFO - eval mIoU of carrage_support 0.703924
+2024-09-21 18:56:27,369 - Model - INFO - eval mIoU of crane          0.945394
+2024-09-21 18:56:27,369 - Model - INFO - eval mIoU of crane_suspension_bracket 0.569828
+2024-09-21 18:56:27,370 - Model - INFO - Epoch 37 test Accuracy: 0.890696  Class avg mIOU: 0.739716   Inctance avg mIOU: 0.738561
+2024-09-21 18:56:27,370 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:56:27,370 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:56:27,371 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:56:27,378 - Model - INFO - Epoch 38 (38/150):
+2024-09-21 18:56:27,379 - Model - INFO - Learning rate:0.000500
+2024-09-21 18:59:20,617 - Model - INFO - Train accuracy is: 0.95470
+2024-09-21 18:59:40,095 - Model - INFO - eval mIoU of carrage_support 0.771223
+2024-09-21 18:59:40,096 - Model - INFO - eval mIoU of crane          0.954899
+2024-09-21 18:59:40,096 - Model - INFO - eval mIoU of crane_suspension_bracket 0.510039
+2024-09-21 18:59:40,096 - Model - INFO - Epoch 38 test Accuracy: 0.891035  Class avg mIOU: 0.745387   Inctance avg mIOU: 0.746220
+2024-09-21 18:59:40,097 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 18:59:40,097 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 18:59:40,097 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 18:59:40,105 - Model - INFO - Epoch 39 (39/150):
+2024-09-21 18:59:40,106 - Model - INFO - Learning rate:0.000500
+2024-09-21 19:02:33,173 - Model - INFO - Train accuracy is: 0.95850
+2024-09-21 19:02:52,649 - Model - INFO - eval mIoU of carrage_support 0.717483
+2024-09-21 19:02:52,649 - Model - INFO - eval mIoU of crane          0.946940
+2024-09-21 19:02:52,649 - Model - INFO - eval mIoU of crane_suspension_bracket 0.536848
+2024-09-21 19:02:52,649 - Model - INFO - Epoch 39 test Accuracy: 0.876882  Class avg mIOU: 0.733757   Inctance avg mIOU: 0.733232
+2024-09-21 19:02:52,649 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 19:02:52,649 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:02:52,651 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 19:02:52,659 - Model - INFO - Epoch 40 (40/150):
+2024-09-21 19:02:52,659 - Model - INFO - Learning rate:0.000500
+2024-09-21 19:05:45,875 - Model - INFO - Train accuracy is: 0.95896
+2024-09-21 19:06:05,301 - Model - INFO - eval mIoU of carrage_support 0.720284
+2024-09-21 19:06:05,302 - Model - INFO - eval mIoU of crane          0.938192
+2024-09-21 19:06:05,302 - Model - INFO - eval mIoU of crane_suspension_bracket 0.539278
+2024-09-21 19:06:05,302 - Model - INFO - Epoch 40 test Accuracy: 0.881529  Class avg mIOU: 0.732585   Inctance avg mIOU: 0.732188
+2024-09-21 19:06:05,303 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 19:06:05,303 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:06:05,303 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 19:06:05,309 - Model - INFO - Epoch 41 (41/150):
+2024-09-21 19:06:05,309 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:08:58,283 - Model - INFO - Train accuracy is: 0.96210
+2024-09-21 19:09:17,797 - Model - INFO - eval mIoU of carrage_support 0.722083
+2024-09-21 19:09:17,797 - Model - INFO - eval mIoU of crane          0.952258
+2024-09-21 19:09:17,797 - Model - INFO - eval mIoU of crane_suspension_bracket 0.556377
+2024-09-21 19:09:17,797 - Model - INFO - Epoch 41 test Accuracy: 0.888908  Class avg mIOU: 0.743572   Inctance avg mIOU: 0.742879
+2024-09-21 19:09:17,798 - Model - INFO - Best accuracy is: 0.89377
+2024-09-21 19:09:17,798 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:09:17,798 - Model - INFO - Best inctance avg mIOU is: 0.76168
+2024-09-21 19:09:17,804 - Model - INFO - Epoch 42 (42/150):
+2024-09-21 19:09:17,804 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:12:11,023 - Model - INFO - Train accuracy is: 0.96193
+2024-09-21 19:12:30,490 - Model - INFO - eval mIoU of carrage_support 0.792604
+2024-09-21 19:12:30,490 - Model - INFO - eval mIoU of crane          0.957513
+2024-09-21 19:12:30,491 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534745
+2024-09-21 19:12:30,491 - Model - INFO - Epoch 42 test Accuracy: 0.896343  Class avg mIOU: 0.761621   Inctance avg mIOU: 0.762620
+2024-09-21 19:12:30,491 - Model - INFO - Save model...
+2024-09-21 19:12:30,491 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 19:12:30,587 - Model - INFO - Saving model....
+2024-09-21 19:12:30,587 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:12:30,588 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:12:30,588 - Model - INFO - Best inctance avg mIOU is: 0.76262
+2024-09-21 19:12:30,594 - Model - INFO - Epoch 43 (43/150):
+2024-09-21 19:12:30,594 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:15:23,740 - Model - INFO - Train accuracy is: 0.96139
+2024-09-21 19:15:43,321 - Model - INFO - eval mIoU of carrage_support 0.789595
+2024-09-21 19:15:43,321 - Model - INFO - eval mIoU of crane          0.944568
+2024-09-21 19:15:43,322 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534891
+2024-09-21 19:15:43,322 - Model - INFO - Epoch 43 test Accuracy: 0.887680  Class avg mIOU: 0.756351   Inctance avg mIOU: 0.757424
+2024-09-21 19:15:43,322 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:15:43,323 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:15:43,323 - Model - INFO - Best inctance avg mIOU is: 0.76262
+2024-09-21 19:15:43,332 - Model - INFO - Epoch 44 (44/150):
+2024-09-21 19:15:43,332 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:18:36,533 - Model - INFO - Train accuracy is: 0.96402
+2024-09-21 19:18:55,983 - Model - INFO - eval mIoU of carrage_support 0.761545
+2024-09-21 19:18:55,984 - Model - INFO - eval mIoU of crane          0.952614
+2024-09-21 19:18:55,984 - Model - INFO - eval mIoU of crane_suspension_bracket 0.529568
+2024-09-21 19:18:55,984 - Model - INFO - Epoch 44 test Accuracy: 0.885215  Class avg mIOU: 0.747909   Inctance avg mIOU: 0.748349
+2024-09-21 19:18:55,985 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:18:55,985 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:18:55,985 - Model - INFO - Best inctance avg mIOU is: 0.76262
+2024-09-21 19:18:55,995 - Model - INFO - Epoch 45 (45/150):
+2024-09-21 19:18:55,996 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:21:49,037 - Model - INFO - Train accuracy is: 0.96309
+2024-09-21 19:22:08,495 - Model - INFO - eval mIoU of carrage_support 0.782312
+2024-09-21 19:22:08,495 - Model - INFO - eval mIoU of crane          0.952014
+2024-09-21 19:22:08,496 - Model - INFO - eval mIoU of crane_suspension_bracket 0.509547
+2024-09-21 19:22:08,496 - Model - INFO - Epoch 45 test Accuracy: 0.890956  Class avg mIOU: 0.747958   Inctance avg mIOU: 0.749066
+2024-09-21 19:22:08,497 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:22:08,497 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:22:08,497 - Model - INFO - Best inctance avg mIOU is: 0.76262
+2024-09-21 19:22:08,504 - Model - INFO - Epoch 46 (46/150):
+2024-09-21 19:22:08,504 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:25:01,629 - Model - INFO - Train accuracy is: 0.96466
+2024-09-21 19:25:21,086 - Model - INFO - eval mIoU of carrage_support 0.764883
+2024-09-21 19:25:21,086 - Model - INFO - eval mIoU of crane          0.954974
+2024-09-21 19:25:21,087 - Model - INFO - eval mIoU of crane_suspension_bracket 0.527369
+2024-09-21 19:25:21,087 - Model - INFO - Epoch 46 test Accuracy: 0.889987  Class avg mIOU: 0.749075   Inctance avg mIOU: 0.749585
+2024-09-21 19:25:21,087 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:25:21,088 - Model - INFO - Best class avg mIOU is: 0.76166
+2024-09-21 19:25:21,088 - Model - INFO - Best inctance avg mIOU is: 0.76262
+2024-09-21 19:25:21,094 - Model - INFO - Epoch 47 (47/150):
+2024-09-21 19:25:21,095 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:28:14,170 - Model - INFO - Train accuracy is: 0.96348
+2024-09-21 19:28:33,757 - Model - INFO - eval mIoU of carrage_support 0.800415
+2024-09-21 19:28:33,757 - Model - INFO - eval mIoU of crane          0.953556
+2024-09-21 19:28:33,758 - Model - INFO - eval mIoU of crane_suspension_bracket 0.537119
+2024-09-21 19:28:33,758 - Model - INFO - Epoch 47 test Accuracy: 0.891775  Class avg mIOU: 0.763697   Inctance avg mIOU: 0.764881
+2024-09-21 19:28:33,759 - Model - INFO - Save model...
+2024-09-21 19:28:33,759 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 19:28:33,861 - Model - INFO - Saving model....
+2024-09-21 19:28:33,862 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:28:33,863 - Model - INFO - Best class avg mIOU is: 0.76370
+2024-09-21 19:28:33,863 - Model - INFO - Best inctance avg mIOU is: 0.76488
+2024-09-21 19:28:33,870 - Model - INFO - Epoch 48 (48/150):
+2024-09-21 19:28:33,870 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:31:27,082 - Model - INFO - Train accuracy is: 0.96318
+2024-09-21 19:31:46,599 - Model - INFO - eval mIoU of carrage_support 0.797447
+2024-09-21 19:31:46,600 - Model - INFO - eval mIoU of crane          0.952892
+2024-09-21 19:31:46,600 - Model - INFO - eval mIoU of crane_suspension_bracket 0.550967
+2024-09-21 19:31:46,600 - Model - INFO - Epoch 48 test Accuracy: 0.895421  Class avg mIOU: 0.767102   Inctance avg mIOU: 0.768081
+2024-09-21 19:31:46,601 - Model - INFO - Save model...
+2024-09-21 19:31:46,601 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 19:31:46,697 - Model - INFO - Saving model....
+2024-09-21 19:31:46,697 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:31:46,698 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:31:46,698 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:31:46,704 - Model - INFO - Epoch 49 (49/150):
+2024-09-21 19:31:46,704 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:34:39,691 - Model - INFO - Train accuracy is: 0.96491
+2024-09-21 19:34:59,257 - Model - INFO - eval mIoU of carrage_support 0.792446
+2024-09-21 19:34:59,258 - Model - INFO - eval mIoU of crane          0.953494
+2024-09-21 19:34:59,258 - Model - INFO - eval mIoU of crane_suspension_bracket 0.545278
+2024-09-21 19:34:59,258 - Model - INFO - Epoch 49 test Accuracy: 0.891428  Class avg mIOU: 0.763739   Inctance avg mIOU: 0.764665
+2024-09-21 19:34:59,259 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:34:59,259 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:34:59,259 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:34:59,269 - Model - INFO - Epoch 50 (50/150):
+2024-09-21 19:34:59,270 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:37:52,602 - Model - INFO - Train accuracy is: 0.96618
+2024-09-21 19:38:12,143 - Model - INFO - eval mIoU of carrage_support 0.778692
+2024-09-21 19:38:12,143 - Model - INFO - eval mIoU of crane          0.951784
+2024-09-21 19:38:12,144 - Model - INFO - eval mIoU of crane_suspension_bracket 0.532440
+2024-09-21 19:38:12,144 - Model - INFO - Epoch 50 test Accuracy: 0.887420  Class avg mIOU: 0.754305   Inctance avg mIOU: 0.755092
+2024-09-21 19:38:12,144 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:38:12,145 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:38:12,145 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:38:12,151 - Model - INFO - Epoch 51 (51/150):
+2024-09-21 19:38:12,152 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:41:05,248 - Model - INFO - Train accuracy is: 0.96398
+2024-09-21 19:41:24,819 - Model - INFO - eval mIoU of carrage_support 0.794647
+2024-09-21 19:41:24,819 - Model - INFO - eval mIoU of crane          0.949220
+2024-09-21 19:41:24,820 - Model - INFO - eval mIoU of crane_suspension_bracket 0.529799
+2024-09-21 19:41:24,821 - Model - INFO - Epoch 51 test Accuracy: 0.887672  Class avg mIOU: 0.757888   Inctance avg mIOU: 0.759074
+2024-09-21 19:41:24,821 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:41:24,821 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:41:24,821 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:41:24,830 - Model - INFO - Epoch 52 (52/150):
+2024-09-21 19:41:24,831 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:44:18,185 - Model - INFO - Train accuracy is: 0.96453
+2024-09-21 19:44:37,602 - Model - INFO - eval mIoU of carrage_support 0.766347
+2024-09-21 19:44:37,602 - Model - INFO - eval mIoU of crane          0.959660
+2024-09-21 19:44:37,603 - Model - INFO - eval mIoU of crane_suspension_bracket 0.553088
+2024-09-21 19:44:37,603 - Model - INFO - Epoch 52 test Accuracy: 0.895398  Class avg mIOU: 0.759698   Inctance avg mIOU: 0.759913
+2024-09-21 19:44:37,603 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:44:37,604 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:44:37,604 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:44:37,610 - Model - INFO - Epoch 53 (53/150):
+2024-09-21 19:44:37,611 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:47:30,660 - Model - INFO - Train accuracy is: 0.96625
+2024-09-21 19:47:50,217 - Model - INFO - eval mIoU of carrage_support 0.796703
+2024-09-21 19:47:50,218 - Model - INFO - eval mIoU of crane          0.959707
+2024-09-21 19:47:50,218 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534416
+2024-09-21 19:47:50,218 - Model - INFO - Epoch 53 test Accuracy: 0.895004  Class avg mIOU: 0.763608   Inctance avg mIOU: 0.764676
+2024-09-21 19:47:50,219 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:47:50,219 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:47:50,219 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:47:50,226 - Model - INFO - Epoch 54 (54/150):
+2024-09-21 19:47:50,226 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:50:43,325 - Model - INFO - Train accuracy is: 0.96238
+2024-09-21 19:51:02,863 - Model - INFO - eval mIoU of carrage_support 0.745630
+2024-09-21 19:51:02,863 - Model - INFO - eval mIoU of crane          0.955880
+2024-09-21 19:51:02,863 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534712
+2024-09-21 19:51:02,864 - Model - INFO - Epoch 54 test Accuracy: 0.885545  Class avg mIOU: 0.745407   Inctance avg mIOU: 0.745415
+2024-09-21 19:51:02,864 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:51:02,865 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:51:02,865 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:51:02,874 - Model - INFO - Epoch 55 (55/150):
+2024-09-21 19:51:02,874 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:53:55,917 - Model - INFO - Train accuracy is: 0.96512
+2024-09-21 19:54:15,438 - Model - INFO - eval mIoU of carrage_support 0.770471
+2024-09-21 19:54:15,438 - Model - INFO - eval mIoU of crane          0.948282
+2024-09-21 19:54:15,438 - Model - INFO - eval mIoU of crane_suspension_bracket 0.473876
+2024-09-21 19:54:15,439 - Model - INFO - Epoch 55 test Accuracy: 0.869338  Class avg mIOU: 0.730876   Inctance avg mIOU: 0.732154
+2024-09-21 19:54:15,439 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:54:15,439 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:54:15,439 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:54:15,447 - Model - INFO - Epoch 56 (56/150):
+2024-09-21 19:54:15,447 - Model - INFO - Learning rate:0.000250
+2024-09-21 19:57:08,572 - Model - INFO - Train accuracy is: 0.96349
+2024-09-21 19:57:28,049 - Model - INFO - eval mIoU of carrage_support 0.786263
+2024-09-21 19:57:28,049 - Model - INFO - eval mIoU of crane          0.958368
+2024-09-21 19:57:28,050 - Model - INFO - eval mIoU of crane_suspension_bracket 0.488572
+2024-09-21 19:57:28,050 - Model - INFO - Epoch 56 test Accuracy: 0.883317  Class avg mIOU: 0.744401   Inctance avg mIOU: 0.745752
+2024-09-21 19:57:28,050 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 19:57:28,051 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 19:57:28,051 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 19:57:28,058 - Model - INFO - Epoch 57 (57/150):
+2024-09-21 19:57:28,059 - Model - INFO - Learning rate:0.000250
+2024-09-21 20:00:21,067 - Model - INFO - Train accuracy is: 0.96563
+2024-09-21 20:00:40,681 - Model - INFO - eval mIoU of carrage_support 0.780644
+2024-09-21 20:00:40,681 - Model - INFO - eval mIoU of crane          0.959399
+2024-09-21 20:00:40,682 - Model - INFO - eval mIoU of crane_suspension_bracket 0.526517
+2024-09-21 20:00:40,682 - Model - INFO - Epoch 57 test Accuracy: 0.888900  Class avg mIOU: 0.755520   Inctance avg mIOU: 0.756330
+2024-09-21 20:00:40,682 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:00:40,683 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:00:40,683 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:00:40,689 - Model - INFO - Epoch 58 (58/150):
+2024-09-21 20:00:40,689 - Model - INFO - Learning rate:0.000250
+2024-09-21 20:03:33,905 - Model - INFO - Train accuracy is: 0.96602
+2024-09-21 20:03:53,400 - Model - INFO - eval mIoU of carrage_support 0.751401
+2024-09-21 20:03:53,400 - Model - INFO - eval mIoU of crane          0.954659
+2024-09-21 20:03:53,401 - Model - INFO - eval mIoU of crane_suspension_bracket 0.545777
+2024-09-21 20:03:53,401 - Model - INFO - Epoch 58 test Accuracy: 0.891759  Class avg mIOU: 0.750613   Inctance avg mIOU: 0.750638
+2024-09-21 20:03:53,402 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:03:53,402 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:03:53,402 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:03:53,408 - Model - INFO - Epoch 59 (59/150):
+2024-09-21 20:03:53,408 - Model - INFO - Learning rate:0.000250
+2024-09-21 20:06:46,434 - Model - INFO - Train accuracy is: 0.96173
+2024-09-21 20:07:05,928 - Model - INFO - eval mIoU of carrage_support 0.787252
+2024-09-21 20:07:05,929 - Model - INFO - eval mIoU of crane          0.958837
+2024-09-21 20:07:05,929 - Model - INFO - eval mIoU of crane_suspension_bracket 0.498054
+2024-09-21 20:07:05,929 - Model - INFO - Epoch 59 test Accuracy: 0.884829  Class avg mIOU: 0.748048   Inctance avg mIOU: 0.749312
+2024-09-21 20:07:05,930 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:07:05,930 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:07:05,930 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:07:05,936 - Model - INFO - Epoch 60 (60/150):
+2024-09-21 20:07:05,936 - Model - INFO - Learning rate:0.000250
+2024-09-21 20:09:59,212 - Model - INFO - Train accuracy is: 0.96643
+2024-09-21 20:10:18,662 - Model - INFO - eval mIoU of carrage_support 0.784550
+2024-09-21 20:10:18,662 - Model - INFO - eval mIoU of crane          0.952429
+2024-09-21 20:10:18,663 - Model - INFO - eval mIoU of crane_suspension_bracket 0.494611
+2024-09-21 20:10:18,663 - Model - INFO - Epoch 60 test Accuracy: 0.886774  Class avg mIOU: 0.743863   Inctance avg mIOU: 0.745176
+2024-09-21 20:10:18,664 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:10:18,664 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:10:18,664 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:10:18,670 - Model - INFO - Epoch 61 (61/150):
+2024-09-21 20:10:18,672 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:13:11,768 - Model - INFO - Train accuracy is: 0.96509
+2024-09-21 20:13:31,242 - Model - INFO - eval mIoU of carrage_support 0.775400
+2024-09-21 20:13:31,243 - Model - INFO - eval mIoU of crane          0.958027
+2024-09-21 20:13:31,243 - Model - INFO - eval mIoU of crane_suspension_bracket 0.525685
+2024-09-21 20:13:31,243 - Model - INFO - Epoch 61 test Accuracy: 0.887239  Class avg mIOU: 0.753037   Inctance avg mIOU: 0.753759
+2024-09-21 20:13:31,244 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:13:31,244 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:13:31,244 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:13:31,252 - Model - INFO - Epoch 62 (62/150):
+2024-09-21 20:13:31,253 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:16:24,452 - Model - INFO - Train accuracy is: 0.96863
+2024-09-21 20:16:43,965 - Model - INFO - eval mIoU of carrage_support 0.754567
+2024-09-21 20:16:43,965 - Model - INFO - eval mIoU of crane          0.953243
+2024-09-21 20:16:43,966 - Model - INFO - eval mIoU of crane_suspension_bracket 0.529933
+2024-09-21 20:16:43,966 - Model - INFO - Epoch 62 test Accuracy: 0.887176  Class avg mIOU: 0.745914   Inctance avg mIOU: 0.746194
+2024-09-21 20:16:43,966 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:16:43,967 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:16:43,967 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:16:43,975 - Model - INFO - Epoch 63 (63/150):
+2024-09-21 20:16:43,975 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:19:37,095 - Model - INFO - Train accuracy is: 0.96715
+2024-09-21 20:19:56,668 - Model - INFO - eval mIoU of carrage_support 0.766490
+2024-09-21 20:19:56,668 - Model - INFO - eval mIoU of crane          0.960526
+2024-09-21 20:19:56,668 - Model - INFO - eval mIoU of crane_suspension_bracket 0.535702
+2024-09-21 20:19:56,669 - Model - INFO - Epoch 63 test Accuracy: 0.889767  Class avg mIOU: 0.754239   Inctance avg mIOU: 0.754635
+2024-09-21 20:19:56,669 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:19:56,669 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:19:56,670 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:19:56,676 - Model - INFO - Epoch 64 (64/150):
+2024-09-21 20:19:56,676 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:22:49,884 - Model - INFO - Train accuracy is: 0.96846
+2024-09-21 20:23:09,346 - Model - INFO - eval mIoU of carrage_support 0.768761
+2024-09-21 20:23:09,346 - Model - INFO - eval mIoU of crane          0.956386
+2024-09-21 20:23:09,347 - Model - INFO - eval mIoU of crane_suspension_bracket 0.538925
+2024-09-21 20:23:09,347 - Model - INFO - Epoch 64 test Accuracy: 0.890003  Class avg mIOU: 0.754690   Inctance avg mIOU: 0.755144
+2024-09-21 20:23:09,347 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:23:09,347 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:23:09,347 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:23:09,355 - Model - INFO - Epoch 65 (65/150):
+2024-09-21 20:23:09,356 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:26:02,506 - Model - INFO - Train accuracy is: 0.96840
+2024-09-21 20:26:22,110 - Model - INFO - eval mIoU of carrage_support 0.774540
+2024-09-21 20:26:22,111 - Model - INFO - eval mIoU of crane          0.951420
+2024-09-21 20:26:22,111 - Model - INFO - eval mIoU of crane_suspension_bracket 0.537142
+2024-09-21 20:26:22,111 - Model - INFO - Epoch 65 test Accuracy: 0.890830  Class avg mIOU: 0.754368   Inctance avg mIOU: 0.755018
+2024-09-21 20:26:22,112 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:26:22,112 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:26:22,112 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:26:22,122 - Model - INFO - Epoch 66 (66/150):
+2024-09-21 20:26:22,122 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:29:15,311 - Model - INFO - Train accuracy is: 0.96909
+2024-09-21 20:29:34,827 - Model - INFO - eval mIoU of carrage_support 0.798734
+2024-09-21 20:29:34,828 - Model - INFO - eval mIoU of crane          0.956874
+2024-09-21 20:29:34,828 - Model - INFO - eval mIoU of crane_suspension_bracket 0.519538
+2024-09-21 20:29:34,829 - Model - INFO - Epoch 66 test Accuracy: 0.892570  Class avg mIOU: 0.758382   Inctance avg mIOU: 0.759684
+2024-09-21 20:29:34,829 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:29:34,829 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:29:34,830 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:29:34,836 - Model - INFO - Epoch 67 (67/150):
+2024-09-21 20:29:34,837 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:32:27,916 - Model - INFO - Train accuracy is: 0.96997
+2024-09-21 20:32:47,425 - Model - INFO - eval mIoU of carrage_support 0.789161
+2024-09-21 20:32:47,425 - Model - INFO - eval mIoU of crane          0.956888
+2024-09-21 20:32:47,426 - Model - INFO - eval mIoU of crane_suspension_bracket 0.514248
+2024-09-21 20:32:47,426 - Model - INFO - Epoch 67 test Accuracy: 0.889365  Class avg mIOU: 0.753432   Inctance avg mIOU: 0.754585
+2024-09-21 20:32:47,426 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:32:47,427 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:32:47,427 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:32:47,433 - Model - INFO - Epoch 68 (68/150):
+2024-09-21 20:32:47,434 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:35:40,731 - Model - INFO - Train accuracy is: 0.97002
+2024-09-21 20:36:00,117 - Model - INFO - eval mIoU of carrage_support 0.764305
+2024-09-21 20:36:00,118 - Model - INFO - eval mIoU of crane          0.959215
+2024-09-21 20:36:00,118 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534797
+2024-09-21 20:36:00,118 - Model - INFO - Epoch 68 test Accuracy: 0.889530  Class avg mIOU: 0.752772   Inctance avg mIOU: 0.753144
+2024-09-21 20:36:00,119 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:36:00,119 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:36:00,119 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:36:00,125 - Model - INFO - Epoch 69 (69/150):
+2024-09-21 20:36:00,125 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:38:53,259 - Model - INFO - Train accuracy is: 0.97017
+2024-09-21 20:39:12,830 - Model - INFO - eval mIoU of carrage_support 0.794781
+2024-09-21 20:39:12,831 - Model - INFO - eval mIoU of crane          0.958765
+2024-09-21 20:39:12,831 - Model - INFO - eval mIoU of crane_suspension_bracket 0.530508
+2024-09-21 20:39:12,832 - Model - INFO - Epoch 69 test Accuracy: 0.895130  Class avg mIOU: 0.761351   Inctance avg mIOU: 0.762430
+2024-09-21 20:39:12,832 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:39:12,832 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:39:12,833 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:39:12,840 - Model - INFO - Epoch 70 (70/150):
+2024-09-21 20:39:12,841 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:42:06,165 - Model - INFO - Train accuracy is: 0.96996
+2024-09-21 20:42:25,694 - Model - INFO - eval mIoU of carrage_support 0.803509
+2024-09-21 20:42:25,695 - Model - INFO - eval mIoU of crane          0.956763
+2024-09-21 20:42:25,695 - Model - INFO - eval mIoU of crane_suspension_bracket 0.523026
+2024-09-21 20:42:25,696 - Model - INFO - Epoch 70 test Accuracy: 0.890255  Class avg mIOU: 0.761099   Inctance avg mIOU: 0.762467
+2024-09-21 20:42:25,696 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:42:25,696 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:42:25,696 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:42:25,703 - Model - INFO - Epoch 71 (71/150):
+2024-09-21 20:42:25,703 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:45:18,813 - Model - INFO - Train accuracy is: 0.97053
+2024-09-21 20:45:38,349 - Model - INFO - eval mIoU of carrage_support 0.814677
+2024-09-21 20:45:38,349 - Model - INFO - eval mIoU of crane          0.952499
+2024-09-21 20:45:38,350 - Model - INFO - eval mIoU of crane_suspension_bracket 0.526446
+2024-09-21 20:45:38,350 - Model - INFO - Epoch 71 test Accuracy: 0.893295  Class avg mIOU: 0.764541   Inctance avg mIOU: 0.766158
+2024-09-21 20:45:38,350 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:45:38,351 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:45:38,351 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:45:38,361 - Model - INFO - Epoch 72 (72/150):
+2024-09-21 20:45:38,361 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:48:31,606 - Model - INFO - Train accuracy is: 0.97024
+2024-09-21 20:48:51,108 - Model - INFO - eval mIoU of carrage_support 0.777934
+2024-09-21 20:48:51,108 - Model - INFO - eval mIoU of crane          0.952772
+2024-09-21 20:48:51,109 - Model - INFO - eval mIoU of crane_suspension_bracket 0.527814
+2024-09-21 20:48:51,109 - Model - INFO - Epoch 72 test Accuracy: 0.892082  Class avg mIOU: 0.752840   Inctance avg mIOU: 0.753650
+2024-09-21 20:48:51,109 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:48:51,110 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:48:51,110 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:48:51,119 - Model - INFO - Epoch 73 (73/150):
+2024-09-21 20:48:51,119 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:51:44,233 - Model - INFO - Train accuracy is: 0.97145
+2024-09-21 20:52:03,827 - Model - INFO - eval mIoU of carrage_support 0.795610
+2024-09-21 20:52:03,827 - Model - INFO - eval mIoU of crane          0.962668
+2024-09-21 20:52:03,828 - Model - INFO - eval mIoU of crane_suspension_bracket 0.513545
+2024-09-21 20:52:03,828 - Model - INFO - Epoch 73 test Accuracy: 0.890964  Class avg mIOU: 0.757274   Inctance avg mIOU: 0.758511
+2024-09-21 20:52:03,829 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:52:03,829 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:52:03,829 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:52:03,837 - Model - INFO - Epoch 74 (74/150):
+2024-09-21 20:52:03,837 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:54:57,090 - Model - INFO - Train accuracy is: 0.96965
+2024-09-21 20:55:16,597 - Model - INFO - eval mIoU of carrage_support 0.765581
+2024-09-21 20:55:16,597 - Model - INFO - eval mIoU of crane          0.954277
+2024-09-21 20:55:16,598 - Model - INFO - eval mIoU of crane_suspension_bracket 0.528825
+2024-09-21 20:55:16,599 - Model - INFO - Epoch 74 test Accuracy: 0.892137  Class avg mIOU: 0.749561   Inctance avg mIOU: 0.750078
+2024-09-21 20:55:16,599 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:55:16,599 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:55:16,599 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:55:16,606 - Model - INFO - Epoch 75 (75/150):
+2024-09-21 20:55:16,607 - Model - INFO - Learning rate:0.000125
+2024-09-21 20:58:09,634 - Model - INFO - Train accuracy is: 0.97023
+2024-09-21 20:58:29,064 - Model - INFO - eval mIoU of carrage_support 0.793779
+2024-09-21 20:58:29,064 - Model - INFO - eval mIoU of crane          0.952636
+2024-09-21 20:58:29,065 - Model - INFO - eval mIoU of crane_suspension_bracket 0.534855
+2024-09-21 20:58:29,065 - Model - INFO - Epoch 75 test Accuracy: 0.888924  Class avg mIOU: 0.760423   Inctance avg mIOU: 0.761499
+2024-09-21 20:58:29,066 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 20:58:29,066 - Model - INFO - Best class avg mIOU is: 0.76710
+2024-09-21 20:58:29,066 - Model - INFO - Best inctance avg mIOU is: 0.76808
+2024-09-21 20:58:29,073 - Model - INFO - Epoch 76 (76/150):
+2024-09-21 20:58:29,074 - Model - INFO - Learning rate:0.000125
+2024-09-21 21:01:22,326 - Model - INFO - Train accuracy is: 0.97121
+2024-09-21 21:01:41,839 - Model - INFO - eval mIoU of carrage_support 0.806575
+2024-09-21 21:01:41,839 - Model - INFO - eval mIoU of crane          0.960690
+2024-09-21 21:01:41,840 - Model - INFO - eval mIoU of crane_suspension_bracket 0.535443
+2024-09-21 21:01:41,840 - Model - INFO - Epoch 76 test Accuracy: 0.890932  Class avg mIOU: 0.767569   Inctance avg mIOU: 0.768828
+2024-09-21 21:01:41,840 - Model - INFO - Save model...
+2024-09-21 21:01:41,840 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 21:01:41,942 - Model - INFO - Saving model....
+2024-09-21 21:01:41,943 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:01:41,944 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:01:41,944 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:01:41,949 - Model - INFO - Epoch 77 (77/150):
+2024-09-21 21:01:41,949 - Model - INFO - Learning rate:0.000125
+2024-09-21 21:04:35,114 - Model - INFO - Train accuracy is: 0.97081
+2024-09-21 21:04:54,744 - Model - INFO - eval mIoU of carrage_support 0.785080
+2024-09-21 21:04:54,744 - Model - INFO - eval mIoU of crane          0.958154
+2024-09-21 21:04:54,745 - Model - INFO - eval mIoU of crane_suspension_bracket 0.507563
+2024-09-21 21:04:54,745 - Model - INFO - Epoch 77 test Accuracy: 0.889979  Class avg mIOU: 0.750266   Inctance avg mIOU: 0.751389
+2024-09-21 21:04:54,746 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:04:54,747 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:04:54,747 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:04:54,754 - Model - INFO - Epoch 78 (78/150):
+2024-09-21 21:04:54,754 - Model - INFO - Learning rate:0.000125
+2024-09-21 21:07:48,006 - Model - INFO - Train accuracy is: 0.97122
+2024-09-21 21:08:07,510 - Model - INFO - eval mIoU of carrage_support 0.789856
+2024-09-21 21:08:07,510 - Model - INFO - eval mIoU of crane          0.953301
+2024-09-21 21:08:07,511 - Model - INFO - eval mIoU of crane_suspension_bracket 0.523025
+2024-09-21 21:08:07,511 - Model - INFO - Epoch 78 test Accuracy: 0.892759  Class avg mIOU: 0.755394   Inctance avg mIOU: 0.756506
+2024-09-21 21:08:07,512 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:08:07,512 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:08:07,512 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:08:07,518 - Model - INFO - Epoch 79 (79/150):
+2024-09-21 21:08:07,519 - Model - INFO - Learning rate:0.000125
+2024-09-21 21:11:00,533 - Model - INFO - Train accuracy is: 0.97137
+2024-09-21 21:11:20,108 - Model - INFO - eval mIoU of carrage_support 0.789971
+2024-09-21 21:11:20,108 - Model - INFO - eval mIoU of crane          0.958810
+2024-09-21 21:11:20,108 - Model - INFO - eval mIoU of crane_suspension_bracket 0.520281
+2024-09-21 21:11:20,109 - Model - INFO - Epoch 79 test Accuracy: 0.895555  Class avg mIOU: 0.756354   Inctance avg mIOU: 0.757438
+2024-09-21 21:11:20,109 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:11:20,109 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:11:20,110 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:11:20,117 - Model - INFO - Epoch 80 (80/150):
+2024-09-21 21:11:20,118 - Model - INFO - Learning rate:0.000125
+2024-09-21 21:14:13,380 - Model - INFO - Train accuracy is: 0.97189
+2024-09-21 21:14:32,827 - Model - INFO - eval mIoU of carrage_support 0.800311
+2024-09-21 21:14:32,827 - Model - INFO - eval mIoU of crane          0.957254
+2024-09-21 21:14:32,828 - Model - INFO - eval mIoU of crane_suspension_bracket 0.535544
+2024-09-21 21:14:32,828 - Model - INFO - Epoch 80 test Accuracy: 0.894216  Class avg mIOU: 0.764370   Inctance avg mIOU: 0.765529
+2024-09-21 21:14:32,828 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:14:32,829 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:14:32,829 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:14:32,835 - Model - INFO - Epoch 81 (81/150):
+2024-09-21 21:14:32,835 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:17:25,931 - Model - INFO - Train accuracy is: 0.97219
+2024-09-21 21:17:45,464 - Model - INFO - eval mIoU of carrage_support 0.804109
+2024-09-21 21:17:45,464 - Model - INFO - eval mIoU of crane          0.956884
+2024-09-21 21:17:45,465 - Model - INFO - eval mIoU of crane_suspension_bracket 0.532511
+2024-09-21 21:17:45,465 - Model - INFO - Epoch 81 test Accuracy: 0.894256  Class avg mIOU: 0.764501   Inctance avg mIOU: 0.765779
+2024-09-21 21:17:45,465 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:17:45,466 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:17:45,466 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:17:45,472 - Model - INFO - Epoch 82 (82/150):
+2024-09-21 21:17:45,473 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:20:38,794 - Model - INFO - Train accuracy is: 0.97365
+2024-09-21 21:20:58,329 - Model - INFO - eval mIoU of carrage_support 0.769424
+2024-09-21 21:20:58,329 - Model - INFO - eval mIoU of crane          0.955566
+2024-09-21 21:20:58,330 - Model - INFO - eval mIoU of crane_suspension_bracket 0.513174
+2024-09-21 21:20:58,330 - Model - INFO - Epoch 82 test Accuracy: 0.887695  Class avg mIOU: 0.746054   Inctance avg mIOU: 0.746808
+2024-09-21 21:20:58,331 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:20:58,331 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:20:58,331 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:20:58,340 - Model - INFO - Epoch 83 (83/150):
+2024-09-21 21:20:58,340 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:23:51,498 - Model - INFO - Train accuracy is: 0.96896
+2024-09-21 21:24:11,059 - Model - INFO - eval mIoU of carrage_support 0.792728
+2024-09-21 21:24:11,060 - Model - INFO - eval mIoU of crane          0.955483
+2024-09-21 21:24:11,060 - Model - INFO - eval mIoU of crane_suspension_bracket 0.540711
+2024-09-21 21:24:11,061 - Model - INFO - Epoch 83 test Accuracy: 0.892791  Class avg mIOU: 0.762974   Inctance avg mIOU: 0.763934
+2024-09-21 21:24:11,061 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:24:11,061 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:24:11,061 - Model - INFO - Best inctance avg mIOU is: 0.76883
+2024-09-21 21:24:11,070 - Model - INFO - Epoch 84 (84/150):
+2024-09-21 21:24:11,070 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:27:04,560 - Model - INFO - Train accuracy is: 0.97141
+2024-09-21 21:27:24,031 - Model - INFO - eval mIoU of carrage_support 0.814353
+2024-09-21 21:27:24,031 - Model - INFO - eval mIoU of crane          0.956538
+2024-09-21 21:27:24,031 - Model - INFO - eval mIoU of crane_suspension_bracket 0.531183
+2024-09-21 21:27:24,032 - Model - INFO - Epoch 84 test Accuracy: 0.891775  Class avg mIOU: 0.767358   Inctance avg mIOU: 0.768874
+2024-09-21 21:27:24,032 - Model - INFO - Save model...
+2024-09-21 21:27:24,032 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 21:27:24,144 - Model - INFO - Saving model....
+2024-09-21 21:27:24,144 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:27:24,146 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:27:24,146 - Model - INFO - Best inctance avg mIOU is: 0.76887
+2024-09-21 21:27:24,152 - Model - INFO - Epoch 85 (85/150):
+2024-09-21 21:27:24,152 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:30:17,272 - Model - INFO - Train accuracy is: 0.97371
+2024-09-21 21:30:36,774 - Model - INFO - eval mIoU of carrage_support 0.808390
+2024-09-21 21:30:36,774 - Model - INFO - eval mIoU of crane          0.957332
+2024-09-21 21:30:36,775 - Model - INFO - eval mIoU of crane_suspension_bracket 0.516742
+2024-09-21 21:30:36,775 - Model - INFO - Epoch 85 test Accuracy: 0.892090  Class avg mIOU: 0.760821   Inctance avg mIOU: 0.762356
+2024-09-21 21:30:36,775 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:30:36,776 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:30:36,776 - Model - INFO - Best inctance avg mIOU is: 0.76887
+2024-09-21 21:30:36,781 - Model - INFO - Epoch 86 (86/150):
+2024-09-21 21:30:36,781 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:33:30,034 - Model - INFO - Train accuracy is: 0.97397
+2024-09-21 21:33:49,627 - Model - INFO - eval mIoU of carrage_support 0.813646
+2024-09-21 21:33:49,627 - Model - INFO - eval mIoU of crane          0.957466
+2024-09-21 21:33:49,627 - Model - INFO - eval mIoU of crane_suspension_bracket 0.506067
+2024-09-21 21:33:49,628 - Model - INFO - Epoch 86 test Accuracy: 0.891751  Class avg mIOU: 0.759059   Inctance avg mIOU: 0.760820
+2024-09-21 21:33:49,628 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:33:49,628 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:33:49,629 - Model - INFO - Best inctance avg mIOU is: 0.76887
+2024-09-21 21:33:49,638 - Model - INFO - Epoch 87 (87/150):
+2024-09-21 21:33:49,638 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:36:42,727 - Model - INFO - Train accuracy is: 0.97436
+2024-09-21 21:37:02,340 - Model - INFO - eval mIoU of carrage_support 0.794805
+2024-09-21 21:37:02,340 - Model - INFO - eval mIoU of crane          0.953565
+2024-09-21 21:37:02,341 - Model - INFO - eval mIoU of crane_suspension_bracket 0.510564
+2024-09-21 21:37:02,341 - Model - INFO - Epoch 87 test Accuracy: 0.893366  Class avg mIOU: 0.752978   Inctance avg mIOU: 0.754327
+2024-09-21 21:37:02,341 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:37:02,342 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:37:02,342 - Model - INFO - Best inctance avg mIOU is: 0.76887
+2024-09-21 21:37:02,350 - Model - INFO - Epoch 88 (88/150):
+2024-09-21 21:37:02,351 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:39:55,601 - Model - INFO - Train accuracy is: 0.97451
+2024-09-21 21:40:15,103 - Model - INFO - eval mIoU of carrage_support 0.807558
+2024-09-21 21:40:15,103 - Model - INFO - eval mIoU of crane          0.949662
+2024-09-21 21:40:15,104 - Model - INFO - eval mIoU of crane_suspension_bracket 0.540808
+2024-09-21 21:40:15,104 - Model - INFO - Epoch 88 test Accuracy: 0.891499  Class avg mIOU: 0.766009   Inctance avg mIOU: 0.767349
+2024-09-21 21:40:15,104 - Model - INFO - Best accuracy is: 0.89634
+2024-09-21 21:40:15,104 - Model - INFO - Best class avg mIOU is: 0.76757
+2024-09-21 21:40:15,105 - Model - INFO - Best inctance avg mIOU is: 0.76887
+2024-09-21 21:40:15,112 - Model - INFO - Epoch 89 (89/150):
+2024-09-21 21:40:15,112 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:43:08,207 - Model - INFO - Train accuracy is: 0.97297
+2024-09-21 21:43:27,741 - Model - INFO - eval mIoU of carrage_support 0.802873
+2024-09-21 21:43:27,741 - Model - INFO - eval mIoU of crane          0.960178
+2024-09-21 21:43:27,742 - Model - INFO - eval mIoU of crane_suspension_bracket 0.550536
+2024-09-21 21:43:27,742 - Model - INFO - Epoch 89 test Accuracy: 0.896681  Class avg mIOU: 0.771196   Inctance avg mIOU: 0.772218
+2024-09-21 21:43:27,743 - Model - INFO - Save model...
+2024-09-21 21:43:27,743 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 21:43:27,841 - Model - INFO - Saving model....
+2024-09-21 21:43:27,841 - Model - INFO - Best accuracy is: 0.89668
+2024-09-21 21:43:27,843 - Model - INFO - Best class avg mIOU is: 0.77120
+2024-09-21 21:43:27,843 - Model - INFO - Best inctance avg mIOU is: 0.77222
+2024-09-21 21:43:27,850 - Model - INFO - Epoch 90 (90/150):
+2024-09-21 21:43:27,850 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:46:21,124 - Model - INFO - Train accuracy is: 0.97298
+2024-09-21 21:46:40,652 - Model - INFO - eval mIoU of carrage_support 0.802529
+2024-09-21 21:46:40,653 - Model - INFO - eval mIoU of crane          0.955944
+2024-09-21 21:46:40,653 - Model - INFO - eval mIoU of crane_suspension_bracket 0.501021
+2024-09-21 21:46:40,653 - Model - INFO - Epoch 90 test Accuracy: 0.892673  Class avg mIOU: 0.753165   Inctance avg mIOU: 0.754757
+2024-09-21 21:46:40,654 - Model - INFO - Best accuracy is: 0.89668
+2024-09-21 21:46:40,654 - Model - INFO - Best class avg mIOU is: 0.77120
+2024-09-21 21:46:40,654 - Model - INFO - Best inctance avg mIOU is: 0.77222
+2024-09-21 21:46:40,662 - Model - INFO - Epoch 91 (91/150):
+2024-09-21 21:46:40,662 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:49:33,799 - Model - INFO - Train accuracy is: 0.97295
+2024-09-21 21:49:53,382 - Model - INFO - eval mIoU of carrage_support 0.798568
+2024-09-21 21:49:53,382 - Model - INFO - eval mIoU of crane          0.959634
+2024-09-21 21:49:53,383 - Model - INFO - eval mIoU of crane_suspension_bracket 0.514944
+2024-09-21 21:49:53,383 - Model - INFO - Epoch 91 test Accuracy: 0.896083  Class avg mIOU: 0.757715   Inctance avg mIOU: 0.759033
+2024-09-21 21:49:53,383 - Model - INFO - Best accuracy is: 0.89668
+2024-09-21 21:49:53,384 - Model - INFO - Best class avg mIOU is: 0.77120
+2024-09-21 21:49:53,384 - Model - INFO - Best inctance avg mIOU is: 0.77222
+2024-09-21 21:49:53,391 - Model - INFO - Epoch 92 (92/150):
+2024-09-21 21:49:53,392 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:52:46,678 - Model - INFO - Train accuracy is: 0.97174
+2024-09-21 21:53:06,214 - Model - INFO - eval mIoU of carrage_support 0.804342
+2024-09-21 21:53:06,214 - Model - INFO - eval mIoU of crane          0.956723
+2024-09-21 21:53:06,215 - Model - INFO - eval mIoU of crane_suspension_bracket 0.557495
+2024-09-21 21:53:06,216 - Model - INFO - Epoch 92 test Accuracy: 0.900107  Class avg mIOU: 0.772853   Inctance avg mIOU: 0.773869
+2024-09-21 21:53:06,216 - Model - INFO - Save model...
+2024-09-21 21:53:06,216 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 21:53:06,320 - Model - INFO - Saving model....
+2024-09-21 21:53:06,320 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 21:53:06,322 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 21:53:06,322 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 21:53:06,328 - Model - INFO - Epoch 93 (93/150):
+2024-09-21 21:53:06,328 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:55:59,441 - Model - INFO - Train accuracy is: 0.97378
+2024-09-21 21:56:19,016 - Model - INFO - eval mIoU of carrage_support 0.801447
+2024-09-21 21:56:19,016 - Model - INFO - eval mIoU of crane          0.957101
+2024-09-21 21:56:19,017 - Model - INFO - eval mIoU of crane_suspension_bracket 0.530767
+2024-09-21 21:56:19,017 - Model - INFO - Epoch 93 test Accuracy: 0.896012  Class avg mIOU: 0.763105   Inctance avg mIOU: 0.764342
+2024-09-21 21:56:19,018 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 21:56:19,018 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 21:56:19,018 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 21:56:19,025 - Model - INFO - Epoch 94 (94/150):
+2024-09-21 21:56:19,025 - Model - INFO - Learning rate:0.000063
+2024-09-21 21:59:12,283 - Model - INFO - Train accuracy is: 0.97432
+2024-09-21 21:59:31,767 - Model - INFO - eval mIoU of carrage_support 0.799342
+2024-09-21 21:59:31,767 - Model - INFO - eval mIoU of crane          0.955323
+2024-09-21 21:59:31,768 - Model - INFO - eval mIoU of crane_suspension_bracket 0.562007
+2024-09-21 21:59:31,768 - Model - INFO - Epoch 94 test Accuracy: 0.899241  Class avg mIOU: 0.772224   Inctance avg mIOU: 0.773099
+2024-09-21 21:59:31,768 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 21:59:31,769 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 21:59:31,769 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 21:59:31,777 - Model - INFO - Epoch 95 (95/150):
+2024-09-21 21:59:31,778 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:02:24,782 - Model - INFO - Train accuracy is: 0.97297
+2024-09-21 22:02:44,298 - Model - INFO - eval mIoU of carrage_support 0.808704
+2024-09-21 22:02:44,298 - Model - INFO - eval mIoU of crane          0.950401
+2024-09-21 22:02:44,298 - Model - INFO - eval mIoU of crane_suspension_bracket 0.542828
+2024-09-21 22:02:44,299 - Model - INFO - Epoch 95 test Accuracy: 0.892381  Class avg mIOU: 0.767311   Inctance avg mIOU: 0.768646
+2024-09-21 22:02:44,299 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:02:44,299 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:02:44,300 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:02:44,310 - Model - INFO - Epoch 96 (96/150):
+2024-09-21 22:02:44,310 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:05:37,669 - Model - INFO - Train accuracy is: 0.97366
+2024-09-21 22:05:57,196 - Model - INFO - eval mIoU of carrage_support 0.791801
+2024-09-21 22:05:57,196 - Model - INFO - eval mIoU of crane          0.960772
+2024-09-21 22:05:57,197 - Model - INFO - eval mIoU of crane_suspension_bracket 0.489437
+2024-09-21 22:05:57,197 - Model - INFO - Epoch 96 test Accuracy: 0.890617  Class avg mIOU: 0.747336   Inctance avg mIOU: 0.748771
+2024-09-21 22:05:57,197 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:05:57,198 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:05:57,198 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:05:57,205 - Model - INFO - Epoch 97 (97/150):
+2024-09-21 22:05:57,206 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:08:50,295 - Model - INFO - Train accuracy is: 0.96997
+2024-09-21 22:09:09,882 - Model - INFO - eval mIoU of carrage_support 0.784482
+2024-09-21 22:09:09,882 - Model - INFO - eval mIoU of crane          0.954481
+2024-09-21 22:09:09,883 - Model - INFO - eval mIoU of crane_suspension_bracket 0.539235
+2024-09-21 22:09:09,883 - Model - INFO - Epoch 97 test Accuracy: 0.893649  Class avg mIOU: 0.759399   Inctance avg mIOU: 0.760208
+2024-09-21 22:09:09,883 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:09:09,884 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:09:09,884 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:09:09,891 - Model - INFO - Epoch 98 (98/150):
+2024-09-21 22:09:09,891 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:12:03,046 - Model - INFO - Train accuracy is: 0.97307
+2024-09-21 22:12:22,606 - Model - INFO - eval mIoU of carrage_support 0.780747
+2024-09-21 22:12:22,607 - Model - INFO - eval mIoU of crane          0.951572
+2024-09-21 22:12:22,607 - Model - INFO - eval mIoU of crane_suspension_bracket 0.548952
+2024-09-21 22:12:22,608 - Model - INFO - Epoch 98 test Accuracy: 0.892011  Class avg mIOU: 0.760424   Inctance avg mIOU: 0.761079
+2024-09-21 22:12:22,608 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:12:22,609 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:12:22,609 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:12:22,619 - Model - INFO - Epoch 99 (99/150):
+2024-09-21 22:12:22,619 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:15:15,750 - Model - INFO - Train accuracy is: 0.97376
+2024-09-21 22:15:35,290 - Model - INFO - eval mIoU of carrage_support 0.797734
+2024-09-21 22:15:35,290 - Model - INFO - eval mIoU of crane          0.956201
+2024-09-21 22:15:35,290 - Model - INFO - eval mIoU of crane_suspension_bracket 0.528109
+2024-09-21 22:15:35,291 - Model - INFO - Epoch 99 test Accuracy: 0.891893  Class avg mIOU: 0.760681   Inctance avg mIOU: 0.761876
+2024-09-21 22:15:35,291 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:15:35,291 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:15:35,292 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:15:35,300 - Model - INFO - Epoch 100 (100/150):
+2024-09-21 22:15:35,300 - Model - INFO - Learning rate:0.000063
+2024-09-21 22:18:28,567 - Model - INFO - Train accuracy is: 0.97303
+2024-09-21 22:18:48,028 - Model - INFO - eval mIoU of carrage_support 0.806746
+2024-09-21 22:18:48,028 - Model - INFO - eval mIoU of crane          0.951093
+2024-09-21 22:18:48,030 - Model - INFO - eval mIoU of crane_suspension_bracket 0.529387
+2024-09-21 22:18:48,030 - Model - INFO - Epoch 100 test Accuracy: 0.894256  Class avg mIOU: 0.762409   Inctance avg mIOU: 0.763839
+2024-09-21 22:18:48,030 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:18:48,030 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:18:48,030 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:18:48,038 - Model - INFO - Epoch 101 (101/150):
+2024-09-21 22:18:48,038 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:21:41,113 - Model - INFO - Train accuracy is: 0.97314
+2024-09-21 22:22:00,675 - Model - INFO - eval mIoU of carrage_support 0.800663
+2024-09-21 22:22:00,676 - Model - INFO - eval mIoU of crane          0.951145
+2024-09-21 22:22:00,676 - Model - INFO - eval mIoU of crane_suspension_bracket 0.546098
+2024-09-21 22:22:00,677 - Model - INFO - Epoch 101 test Accuracy: 0.894342  Class avg mIOU: 0.765969   Inctance avg mIOU: 0.767088
+2024-09-21 22:22:00,677 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:22:00,677 - Model - INFO - Best class avg mIOU is: 0.77285
+2024-09-21 22:22:00,678 - Model - INFO - Best inctance avg mIOU is: 0.77387
+2024-09-21 22:22:00,684 - Model - INFO - Epoch 102 (102/150):
+2024-09-21 22:22:00,684 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:24:54,035 - Model - INFO - Train accuracy is: 0.97469
+2024-09-21 22:25:13,541 - Model - INFO - eval mIoU of carrage_support 0.804777
+2024-09-21 22:25:13,541 - Model - INFO - eval mIoU of crane          0.950421
+2024-09-21 22:25:13,541 - Model - INFO - eval mIoU of crane_suspension_bracket 0.564373
+2024-09-21 22:25:13,542 - Model - INFO - Epoch 102 test Accuracy: 0.894232  Class avg mIOU: 0.773190   Inctance avg mIOU: 0.774209
+2024-09-21 22:25:13,542 - Model - INFO - Save model...
+2024-09-21 22:25:13,542 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-21 22:25:13,647 - Model - INFO - Saving model....
+2024-09-21 22:25:13,647 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:25:13,648 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:25:13,649 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:25:13,654 - Model - INFO - Epoch 103 (103/150):
+2024-09-21 22:25:13,654 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:28:06,810 - Model - INFO - Train accuracy is: 0.97479
+2024-09-21 22:28:26,423 - Model - INFO - eval mIoU of carrage_support 0.793756
+2024-09-21 22:28:26,423 - Model - INFO - eval mIoU of crane          0.956292
+2024-09-21 22:28:26,424 - Model - INFO - eval mIoU of crane_suspension_bracket 0.525707
+2024-09-21 22:28:26,424 - Model - INFO - Epoch 103 test Accuracy: 0.892129  Class avg mIOU: 0.758585   Inctance avg mIOU: 0.759719
+2024-09-21 22:28:26,425 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:28:26,425 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:28:26,426 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:28:26,435 - Model - INFO - Epoch 104 (104/150):
+2024-09-21 22:28:26,435 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:31:19,636 - Model - INFO - Train accuracy is: 0.97504
+2024-09-21 22:31:39,098 - Model - INFO - eval mIoU of carrage_support 0.793736
+2024-09-21 22:31:39,098 - Model - INFO - eval mIoU of crane          0.954272
+2024-09-21 22:31:39,099 - Model - INFO - eval mIoU of crane_suspension_bracket 0.531723
+2024-09-21 22:31:39,099 - Model - INFO - Epoch 104 test Accuracy: 0.893303  Class avg mIOU: 0.759910   Inctance avg mIOU: 0.761001
+2024-09-21 22:31:39,099 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:31:39,100 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:31:39,100 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:31:39,128 - Model - INFO - Epoch 105 (105/150):
+2024-09-21 22:31:39,128 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:34:32,269 - Model - INFO - Train accuracy is: 0.97479
+2024-09-21 22:34:51,839 - Model - INFO - eval mIoU of carrage_support 0.801843
+2024-09-21 22:34:51,839 - Model - INFO - eval mIoU of crane          0.956162
+2024-09-21 22:34:51,839 - Model - INFO - eval mIoU of crane_suspension_bracket 0.515014
+2024-09-21 22:34:51,840 - Model - INFO - Epoch 105 test Accuracy: 0.893586  Class avg mIOU: 0.757673   Inctance avg mIOU: 0.759098
+2024-09-21 22:34:51,840 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:34:51,840 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:34:51,841 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:34:51,847 - Model - INFO - Epoch 106 (106/150):
+2024-09-21 22:34:51,848 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:37:45,219 - Model - INFO - Train accuracy is: 0.97522
+2024-09-21 22:38:04,740 - Model - INFO - eval mIoU of carrage_support 0.788620
+2024-09-21 22:38:04,740 - Model - INFO - eval mIoU of crane          0.955979
+2024-09-21 22:38:04,741 - Model - INFO - eval mIoU of crane_suspension_bracket 0.520521
+2024-09-21 22:38:04,742 - Model - INFO - Epoch 106 test Accuracy: 0.893208  Class avg mIOU: 0.755040   Inctance avg mIOU: 0.756123
+2024-09-21 22:38:04,742 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:38:04,742 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:38:04,742 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:38:04,749 - Model - INFO - Epoch 107 (107/150):
+2024-09-21 22:38:04,750 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:40:57,992 - Model - INFO - Train accuracy is: 0.97448
+2024-09-21 22:41:17,577 - Model - INFO - eval mIoU of carrage_support 0.792997
+2024-09-21 22:41:17,578 - Model - INFO - eval mIoU of crane          0.954823
+2024-09-21 22:41:17,578 - Model - INFO - eval mIoU of crane_suspension_bracket 0.527883
+2024-09-21 22:41:17,578 - Model - INFO - Epoch 107 test Accuracy: 0.892106  Class avg mIOU: 0.758568   Inctance avg mIOU: 0.759678
+2024-09-21 22:41:17,578 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:41:17,578 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:41:17,578 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:41:17,586 - Model - INFO - Epoch 108 (108/150):
+2024-09-21 22:41:17,587 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:44:10,994 - Model - INFO - Train accuracy is: 0.97279
+2024-09-21 22:44:30,428 - Model - INFO - eval mIoU of carrage_support 0.799818
+2024-09-21 22:44:30,428 - Model - INFO - eval mIoU of crane          0.958435
+2024-09-21 22:44:30,428 - Model - INFO - eval mIoU of crane_suspension_bracket 0.531379
+2024-09-21 22:44:30,429 - Model - INFO - Epoch 108 test Accuracy: 0.894901  Class avg mIOU: 0.763211   Inctance avg mIOU: 0.764392
+2024-09-21 22:44:30,429 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:44:30,429 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:44:30,429 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:44:30,436 - Model - INFO - Epoch 109 (109/150):
+2024-09-21 22:44:30,437 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:47:23,650 - Model - INFO - Train accuracy is: 0.97407
+2024-09-21 22:47:43,186 - Model - INFO - eval mIoU of carrage_support 0.805123
+2024-09-21 22:47:43,186 - Model - INFO - eval mIoU of crane          0.957208
+2024-09-21 22:47:43,186 - Model - INFO - eval mIoU of crane_suspension_bracket 0.508897
+2024-09-21 22:47:43,187 - Model - INFO - Epoch 109 test Accuracy: 0.897406  Class avg mIOU: 0.757076   Inctance avg mIOU: 0.758626
+2024-09-21 22:47:43,187 - Model - INFO - Best accuracy is: 0.90011
+2024-09-21 22:47:43,188 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:47:43,188 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:47:43,193 - Model - INFO - Epoch 110 (110/150):
+2024-09-21 22:47:43,194 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:50:36,518 - Model - INFO - Train accuracy is: 0.97425
+2024-09-21 22:50:56,044 - Model - INFO - eval mIoU of carrage_support 0.798501
+2024-09-21 22:50:56,044 - Model - INFO - eval mIoU of crane          0.962436
+2024-09-21 22:50:56,045 - Model - INFO - eval mIoU of crane_suspension_bracket 0.547958
+2024-09-21 22:50:56,045 - Model - INFO - Epoch 110 test Accuracy: 0.900572  Class avg mIOU: 0.769632   Inctance avg mIOU: 0.770563
+2024-09-21 22:50:56,046 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 22:50:56,046 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:50:56,047 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:50:56,053 - Model - INFO - Epoch 111 (111/150):
+2024-09-21 22:50:56,054 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:53:49,219 - Model - INFO - Train accuracy is: 0.97563
+2024-09-21 22:54:08,782 - Model - INFO - eval mIoU of carrage_support 0.801666
+2024-09-21 22:54:08,783 - Model - INFO - eval mIoU of crane          0.960678
+2024-09-21 22:54:08,783 - Model - INFO - eval mIoU of crane_suspension_bracket 0.528005
+2024-09-21 22:54:08,784 - Model - INFO - Epoch 111 test Accuracy: 0.898619  Class avg mIOU: 0.763450   Inctance avg mIOU: 0.764683
+2024-09-21 22:54:08,784 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 22:54:08,784 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:54:08,784 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:54:08,791 - Model - INFO - Epoch 112 (112/150):
+2024-09-21 22:54:08,792 - Model - INFO - Learning rate:0.000031
+2024-09-21 22:57:02,182 - Model - INFO - Train accuracy is: 0.97397
+2024-09-21 22:57:21,652 - Model - INFO - eval mIoU of carrage_support 0.803906
+2024-09-21 22:57:21,652 - Model - INFO - eval mIoU of crane          0.953401
+2024-09-21 22:57:21,652 - Model - INFO - eval mIoU of crane_suspension_bracket 0.537181
+2024-09-21 22:57:21,653 - Model - INFO - Epoch 112 test Accuracy: 0.896154  Class avg mIOU: 0.764829   Inctance avg mIOU: 0.766090
+2024-09-21 22:57:21,653 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 22:57:21,653 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 22:57:21,653 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 22:57:21,661 - Model - INFO - Epoch 113 (113/150):
+2024-09-21 22:57:21,662 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:00:14,783 - Model - INFO - Train accuracy is: 0.97180
+2024-09-21 23:00:34,365 - Model - INFO - eval mIoU of carrage_support 0.812416
+2024-09-21 23:00:34,365 - Model - INFO - eval mIoU of crane          0.956466
+2024-09-21 23:00:34,365 - Model - INFO - eval mIoU of crane_suspension_bracket 0.539589
+2024-09-21 23:00:34,366 - Model - INFO - Epoch 113 test Accuracy: 0.899068  Class avg mIOU: 0.769490   Inctance avg mIOU: 0.770875
+2024-09-21 23:00:34,367 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:00:34,367 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:00:34,367 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:00:34,376 - Model - INFO - Epoch 114 (114/150):
+2024-09-21 23:00:34,377 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:03:27,739 - Model - INFO - Train accuracy is: 0.97553
+2024-09-21 23:03:47,250 - Model - INFO - eval mIoU of carrage_support 0.795364
+2024-09-21 23:03:47,251 - Model - INFO - eval mIoU of crane          0.957502
+2024-09-21 23:03:47,251 - Model - INFO - eval mIoU of crane_suspension_bracket 0.544244
+2024-09-21 23:03:47,252 - Model - INFO - Epoch 114 test Accuracy: 0.898461  Class avg mIOU: 0.765703   Inctance avg mIOU: 0.766660
+2024-09-21 23:03:47,252 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:03:47,252 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:03:47,252 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:03:47,260 - Model - INFO - Epoch 115 (115/150):
+2024-09-21 23:03:47,260 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:06:40,432 - Model - INFO - Train accuracy is: 0.97477
+2024-09-21 23:07:00,003 - Model - INFO - eval mIoU of carrage_support 0.784948
+2024-09-21 23:07:00,004 - Model - INFO - eval mIoU of crane          0.952020
+2024-09-21 23:07:00,005 - Model - INFO - eval mIoU of crane_suspension_bracket 0.549127
+2024-09-21 23:07:00,005 - Model - INFO - Epoch 115 test Accuracy: 0.893192  Class avg mIOU: 0.762032   Inctance avg mIOU: 0.762771
+2024-09-21 23:07:00,006 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:07:00,006 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:07:00,007 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:07:00,015 - Model - INFO - Epoch 116 (116/150):
+2024-09-21 23:07:00,015 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:09:53,448 - Model - INFO - Train accuracy is: 0.97490
+2024-09-21 23:10:12,969 - Model - INFO - eval mIoU of carrage_support 0.779118
+2024-09-21 23:10:12,970 - Model - INFO - eval mIoU of crane          0.954633
+2024-09-21 23:10:12,970 - Model - INFO - eval mIoU of crane_suspension_bracket 0.546033
+2024-09-21 23:10:12,971 - Model - INFO - Epoch 116 test Accuracy: 0.893468  Class avg mIOU: 0.759928   Inctance avg mIOU: 0.760547
+2024-09-21 23:10:12,971 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:10:12,972 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:10:12,972 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:10:12,979 - Model - INFO - Epoch 117 (117/150):
+2024-09-21 23:10:12,980 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:13:06,227 - Model - INFO - Train accuracy is: 0.97459
+2024-09-21 23:13:25,811 - Model - INFO - eval mIoU of carrage_support 0.793373
+2024-09-21 23:13:25,812 - Model - INFO - eval mIoU of crane          0.953918
+2024-09-21 23:13:25,812 - Model - INFO - eval mIoU of crane_suspension_bracket 0.553630
+2024-09-21 23:13:25,812 - Model - INFO - Epoch 117 test Accuracy: 0.896232  Class avg mIOU: 0.766974   Inctance avg mIOU: 0.767825
+2024-09-21 23:13:25,813 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:13:25,813 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:13:25,813 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:13:25,820 - Model - INFO - Epoch 118 (118/150):
+2024-09-21 23:13:25,821 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:16:19,107 - Model - INFO - Train accuracy is: 0.97540
+2024-09-21 23:16:38,653 - Model - INFO - eval mIoU of carrage_support 0.799696
+2024-09-21 23:16:38,653 - Model - INFO - eval mIoU of crane          0.952780
+2024-09-21 23:16:38,654 - Model - INFO - eval mIoU of crane_suspension_bracket 0.526931
+2024-09-21 23:16:38,654 - Model - INFO - Epoch 118 test Accuracy: 0.893649  Class avg mIOU: 0.759802   Inctance avg mIOU: 0.761089
+2024-09-21 23:16:38,654 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:16:38,655 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:16:38,655 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:16:38,663 - Model - INFO - Epoch 119 (119/150):
+2024-09-21 23:16:38,663 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:19:31,889 - Model - INFO - Train accuracy is: 0.97373
+2024-09-21 23:19:51,482 - Model - INFO - eval mIoU of carrage_support 0.814461
+2024-09-21 23:19:51,482 - Model - INFO - eval mIoU of crane          0.955852
+2024-09-21 23:19:51,482 - Model - INFO - eval mIoU of crane_suspension_bracket 0.512633
+2024-09-21 23:19:51,483 - Model - INFO - Epoch 119 test Accuracy: 0.895398  Class avg mIOU: 0.760982   Inctance avg mIOU: 0.762707
+2024-09-21 23:19:51,483 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:19:51,483 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:19:51,484 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:19:51,492 - Model - INFO - Epoch 120 (120/150):
+2024-09-21 23:19:51,492 - Model - INFO - Learning rate:0.000031
+2024-09-21 23:22:44,929 - Model - INFO - Train accuracy is: 0.97600
+2024-09-21 23:23:04,462 - Model - INFO - eval mIoU of carrage_support 0.798728
+2024-09-21 23:23:04,463 - Model - INFO - eval mIoU of crane          0.959557
+2024-09-21 23:23:04,463 - Model - INFO - eval mIoU of crane_suspension_bracket 0.531684
+2024-09-21 23:23:04,464 - Model - INFO - Epoch 120 test Accuracy: 0.895429  Class avg mIOU: 0.763323   Inctance avg mIOU: 0.764465
+2024-09-21 23:23:04,464 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:23:04,464 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:23:04,465 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:23:04,472 - Model - INFO - Epoch 121 (121/150):
+2024-09-21 23:23:04,472 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:25:57,610 - Model - INFO - Train accuracy is: 0.97480
+2024-09-21 23:26:17,173 - Model - INFO - eval mIoU of carrage_support 0.802618
+2024-09-21 23:26:17,173 - Model - INFO - eval mIoU of crane          0.955581
+2024-09-21 23:26:17,174 - Model - INFO - eval mIoU of crane_suspension_bracket 0.548343
+2024-09-21 23:26:17,174 - Model - INFO - Epoch 121 test Accuracy: 0.893468  Class avg mIOU: 0.768847   Inctance avg mIOU: 0.769937
+2024-09-21 23:26:17,175 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:26:17,175 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:26:17,175 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:26:17,182 - Model - INFO - Epoch 122 (122/150):
+2024-09-21 23:26:17,182 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:29:10,561 - Model - INFO - Train accuracy is: 0.97507
+2024-09-21 23:29:30,075 - Model - INFO - eval mIoU of carrage_support 0.797834
+2024-09-21 23:29:30,075 - Model - INFO - eval mIoU of crane          0.952605
+2024-09-21 23:29:30,075 - Model - INFO - eval mIoU of crane_suspension_bracket 0.537902
+2024-09-21 23:29:30,077 - Model - INFO - Epoch 122 test Accuracy: 0.897177  Class avg mIOU: 0.762780   Inctance avg mIOU: 0.763911
+2024-09-21 23:29:30,077 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:29:30,077 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:29:30,077 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:29:30,083 - Model - INFO - Epoch 123 (123/150):
+2024-09-21 23:29:30,083 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:32:23,224 - Model - INFO - Train accuracy is: 0.97544
+2024-09-21 23:32:42,784 - Model - INFO - eval mIoU of carrage_support 0.792439
+2024-09-21 23:32:42,785 - Model - INFO - eval mIoU of crane          0.950920
+2024-09-21 23:32:42,786 - Model - INFO - eval mIoU of crane_suspension_bracket 0.543667
+2024-09-21 23:32:42,786 - Model - INFO - Epoch 123 test Accuracy: 0.897359  Class avg mIOU: 0.762342   Inctance avg mIOU: 0.763313
+2024-09-21 23:32:42,787 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:32:42,787 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:32:42,787 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:32:42,793 - Model - INFO - Epoch 124 (124/150):
+2024-09-21 23:32:42,793 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:35:36,185 - Model - INFO - Train accuracy is: 0.97522
+2024-09-21 23:35:55,702 - Model - INFO - eval mIoU of carrage_support 0.799602
+2024-09-21 23:35:55,702 - Model - INFO - eval mIoU of crane          0.962356
+2024-09-21 23:35:55,703 - Model - INFO - eval mIoU of crane_suspension_bracket 0.549086
+2024-09-21 23:35:55,703 - Model - INFO - Epoch 124 test Accuracy: 0.896083  Class avg mIOU: 0.770348   Inctance avg mIOU: 0.771292
+2024-09-21 23:35:55,704 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:35:55,704 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:35:55,704 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:35:55,712 - Model - INFO - Epoch 125 (125/150):
+2024-09-21 23:35:55,712 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:38:48,907 - Model - INFO - Train accuracy is: 0.97471
+2024-09-21 23:39:08,458 - Model - INFO - eval mIoU of carrage_support 0.797346
+2024-09-21 23:39:08,458 - Model - INFO - eval mIoU of crane          0.954938
+2024-09-21 23:39:08,459 - Model - INFO - eval mIoU of crane_suspension_bracket 0.546818
+2024-09-21 23:39:08,459 - Model - INFO - Epoch 125 test Accuracy: 0.899162  Class avg mIOU: 0.766367   Inctance avg mIOU: 0.767367
+2024-09-21 23:39:08,460 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:39:08,460 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:39:08,460 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:39:08,467 - Model - INFO - Epoch 126 (126/150):
+2024-09-21 23:39:08,467 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:42:01,911 - Model - INFO - Train accuracy is: 0.97590
+2024-09-21 23:42:21,486 - Model - INFO - eval mIoU of carrage_support 0.800177
+2024-09-21 23:42:21,486 - Model - INFO - eval mIoU of crane          0.957307
+2024-09-21 23:42:21,486 - Model - INFO - eval mIoU of crane_suspension_bracket 0.527626
+2024-09-21 23:42:21,487 - Model - INFO - Epoch 126 test Accuracy: 0.892523  Class avg mIOU: 0.761703   Inctance avg mIOU: 0.762945
+2024-09-21 23:42:21,487 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:42:21,487 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:42:21,488 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:42:21,497 - Model - INFO - Epoch 127 (127/150):
+2024-09-21 23:42:21,498 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:45:14,678 - Model - INFO - Train accuracy is: 0.97532
+2024-09-21 23:45:34,244 - Model - INFO - eval mIoU of carrage_support 0.797529
+2024-09-21 23:45:34,244 - Model - INFO - eval mIoU of crane          0.956073
+2024-09-21 23:45:34,244 - Model - INFO - eval mIoU of crane_suspension_bracket 0.540440
+2024-09-21 23:45:34,245 - Model - INFO - Epoch 127 test Accuracy: 0.896256  Class avg mIOU: 0.764681   Inctance avg mIOU: 0.765741
+2024-09-21 23:45:34,245 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:45:34,246 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:45:34,246 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:45:34,255 - Model - INFO - Epoch 128 (128/150):
+2024-09-21 23:45:34,256 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:48:27,549 - Model - INFO - Train accuracy is: 0.97486
+2024-09-21 23:48:47,091 - Model - INFO - eval mIoU of carrage_support 0.802791
+2024-09-21 23:48:47,091 - Model - INFO - eval mIoU of crane          0.957213
+2024-09-21 23:48:47,092 - Model - INFO - eval mIoU of crane_suspension_bracket 0.544917
+2024-09-21 23:48:47,092 - Model - INFO - Epoch 128 test Accuracy: 0.899721  Class avg mIOU: 0.768307   Inctance avg mIOU: 0.769419
+2024-09-21 23:48:47,092 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:48:47,092 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:48:47,093 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:48:47,101 - Model - INFO - Epoch 129 (129/150):
+2024-09-21 23:48:47,101 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:51:40,343 - Model - INFO - Train accuracy is: 0.97572
+2024-09-21 23:51:59,913 - Model - INFO - eval mIoU of carrage_support 0.809380
+2024-09-21 23:51:59,913 - Model - INFO - eval mIoU of crane          0.956575
+2024-09-21 23:51:59,915 - Model - INFO - eval mIoU of crane_suspension_bracket 0.548413
+2024-09-21 23:51:59,915 - Model - INFO - Epoch 129 test Accuracy: 0.899028  Class avg mIOU: 0.771456   Inctance avg mIOU: 0.772680
+2024-09-21 23:51:59,915 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:51:59,916 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:51:59,916 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:51:59,924 - Model - INFO - Epoch 130 (130/150):
+2024-09-21 23:51:59,924 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:54:53,316 - Model - INFO - Train accuracy is: 0.97545
+2024-09-21 23:55:12,848 - Model - INFO - eval mIoU of carrage_support 0.789225
+2024-09-21 23:55:12,848 - Model - INFO - eval mIoU of crane          0.955931
+2024-09-21 23:55:12,849 - Model - INFO - eval mIoU of crane_suspension_bracket 0.530765
+2024-09-21 23:55:12,849 - Model - INFO - Epoch 130 test Accuracy: 0.892933  Class avg mIOU: 0.758640   Inctance avg mIOU: 0.759627
+2024-09-21 23:55:12,850 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:55:12,850 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:55:12,850 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:55:12,860 - Model - INFO - Epoch 131 (131/150):
+2024-09-21 23:55:12,860 - Model - INFO - Learning rate:0.000016
+2024-09-21 23:58:05,982 - Model - INFO - Train accuracy is: 0.97459
+2024-09-21 23:58:25,557 - Model - INFO - eval mIoU of carrage_support 0.790773
+2024-09-21 23:58:25,557 - Model - INFO - eval mIoU of crane          0.957731
+2024-09-21 23:58:25,558 - Model - INFO - eval mIoU of crane_suspension_bracket 0.529706
+2024-09-21 23:58:25,559 - Model - INFO - Epoch 131 test Accuracy: 0.893539  Class avg mIOU: 0.759403   Inctance avg mIOU: 0.760415
+2024-09-21 23:58:25,559 - Model - INFO - Best accuracy is: 0.90057
+2024-09-21 23:58:25,559 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-21 23:58:25,560 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-21 23:58:25,569 - Model - INFO - Epoch 132 (132/150):
+2024-09-21 23:58:25,569 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:01:18,908 - Model - INFO - Train accuracy is: 0.97529
+2024-09-22 00:01:38,412 - Model - INFO - eval mIoU of carrage_support 0.798463
+2024-09-22 00:01:38,413 - Model - INFO - eval mIoU of crane          0.953023
+2024-09-22 00:01:38,413 - Model - INFO - eval mIoU of crane_suspension_bracket 0.538138
+2024-09-22 00:01:38,414 - Model - INFO - Epoch 132 test Accuracy: 0.897540  Class avg mIOU: 0.763208   Inctance avg mIOU: 0.764345
+2024-09-22 00:01:38,414 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:01:38,414 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:01:38,414 - Model - INFO - Best inctance avg mIOU is: 0.77421
+2024-09-22 00:01:38,420 - Model - INFO - Epoch 133 (133/150):
+2024-09-22 00:01:38,422 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:04:31,879 - Model - INFO - Train accuracy is: 0.97592
+2024-09-22 00:04:51,840 - Model - INFO - eval mIoU of carrage_support 0.810398
+2024-09-22 00:04:51,841 - Model - INFO - eval mIoU of crane          0.957389
+2024-09-22 00:04:51,841 - Model - INFO - eval mIoU of crane_suspension_bracket 0.551361
+2024-09-22 00:04:51,842 - Model - INFO - Epoch 133 test Accuracy: 0.897894  Class avg mIOU: 0.773049   Inctance avg mIOU: 0.774254
+2024-09-22 00:04:51,843 - Model - INFO - Save model...
+2024-09-22 00:04:51,843 - Model - INFO - Saving at log\part_seg\2024-09-21_16-57\checkpoints/best_model.pth
+2024-09-22 00:04:52,005 - Model - INFO - Saving model....
+2024-09-22 00:04:52,005 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:04:52,007 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:04:52,009 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:04:52,020 - Model - INFO - Epoch 134 (134/150):
+2024-09-22 00:04:52,021 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:07:45,445 - Model - INFO - Train accuracy is: 0.97566
+2024-09-22 00:08:04,996 - Model - INFO - eval mIoU of carrage_support 0.802610
+2024-09-22 00:08:04,996 - Model - INFO - eval mIoU of crane          0.958649
+2024-09-22 00:08:04,998 - Model - INFO - eval mIoU of crane_suspension_bracket 0.532975
+2024-09-22 00:08:04,998 - Model - INFO - Epoch 134 test Accuracy: 0.895531  Class avg mIOU: 0.764745   Inctance avg mIOU: 0.765966
+2024-09-22 00:08:04,998 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:08:04,998 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:08:04,998 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:08:05,005 - Model - INFO - Epoch 135 (135/150):
+2024-09-22 00:08:05,005 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:10:58,150 - Model - INFO - Train accuracy is: 0.97559
+2024-09-22 00:11:17,779 - Model - INFO - eval mIoU of carrage_support 0.800423
+2024-09-22 00:11:17,779 - Model - INFO - eval mIoU of crane          0.953487
+2024-09-22 00:11:17,780 - Model - INFO - eval mIoU of crane_suspension_bracket 0.520551
+2024-09-22 00:11:17,781 - Model - INFO - Epoch 135 test Accuracy: 0.891216  Class avg mIOU: 0.758153   Inctance avg mIOU: 0.759517
+2024-09-22 00:11:17,781 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:11:17,781 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:11:17,781 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:11:17,791 - Model - INFO - Epoch 136 (136/150):
+2024-09-22 00:11:17,791 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:14:11,203 - Model - INFO - Train accuracy is: 0.97398
+2024-09-22 00:14:30,738 - Model - INFO - eval mIoU of carrage_support 0.798198
+2024-09-22 00:14:30,738 - Model - INFO - eval mIoU of crane          0.961015
+2024-09-22 00:14:30,739 - Model - INFO - eval mIoU of crane_suspension_bracket 0.535878
+2024-09-22 00:14:30,739 - Model - INFO - Epoch 136 test Accuracy: 0.897366  Class avg mIOU: 0.765030   Inctance avg mIOU: 0.766100
+2024-09-22 00:14:30,740 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:14:30,740 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:14:30,740 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:14:30,749 - Model - INFO - Epoch 137 (137/150):
+2024-09-22 00:14:30,749 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:17:23,923 - Model - INFO - Train accuracy is: 0.97253
+2024-09-22 00:17:43,504 - Model - INFO - eval mIoU of carrage_support 0.789231
+2024-09-22 00:17:43,504 - Model - INFO - eval mIoU of crane          0.957014
+2024-09-22 00:17:43,504 - Model - INFO - eval mIoU of crane_suspension_bracket 0.553422
+2024-09-22 00:17:43,505 - Model - INFO - Epoch 137 test Accuracy: 0.896390  Class avg mIOU: 0.766556   Inctance avg mIOU: 0.767287
+2024-09-22 00:17:43,506 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:17:43,506 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:17:43,506 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:17:43,513 - Model - INFO - Epoch 138 (138/150):
+2024-09-22 00:17:43,514 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:20:36,984 - Model - INFO - Train accuracy is: 0.97642
+2024-09-22 00:20:56,706 - Model - INFO - eval mIoU of carrage_support 0.806078
+2024-09-22 00:20:56,707 - Model - INFO - eval mIoU of crane          0.960127
+2024-09-22 00:20:56,707 - Model - INFO - eval mIoU of crane_suspension_bracket 0.549417
+2024-09-22 00:20:56,708 - Model - INFO - Epoch 138 test Accuracy: 0.897886  Class avg mIOU: 0.771874   Inctance avg mIOU: 0.772978
+2024-09-22 00:20:56,708 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:20:56,708 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:20:56,709 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:20:56,716 - Model - INFO - Epoch 139 (139/150):
+2024-09-22 00:20:56,717 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:23:48,982 - Model - INFO - Train accuracy is: 0.97611
+2024-09-22 00:24:08,506 - Model - INFO - eval mIoU of carrage_support 0.794610
+2024-09-22 00:24:08,506 - Model - INFO - eval mIoU of crane          0.954434
+2024-09-22 00:24:08,507 - Model - INFO - eval mIoU of crane_suspension_bracket 0.545922
+2024-09-22 00:24:08,508 - Model - INFO - Epoch 139 test Accuracy: 0.892531  Class avg mIOU: 0.764989   Inctance avg mIOU: 0.765944
+2024-09-22 00:24:08,508 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:24:08,509 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:24:08,509 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:24:08,516 - Model - INFO - Epoch 140 (140/150):
+2024-09-22 00:24:08,516 - Model - INFO - Learning rate:0.000016
+2024-09-22 00:27:01,945 - Model - INFO - Train accuracy is: 0.97463
+2024-09-22 00:27:21,499 - Model - INFO - eval mIoU of carrage_support 0.788740
+2024-09-22 00:27:21,499 - Model - INFO - eval mIoU of crane          0.950215
+2024-09-22 00:27:21,499 - Model - INFO - eval mIoU of crane_suspension_bracket 0.542953
+2024-09-22 00:27:21,499 - Model - INFO - Epoch 140 test Accuracy: 0.896366  Class avg mIOU: 0.760636   Inctance avg mIOU: 0.761543
+2024-09-22 00:27:21,500 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:27:21,500 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:27:21,500 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:27:21,509 - Model - INFO - Epoch 141 (141/150):
+2024-09-22 00:27:21,509 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:30:14,635 - Model - INFO - Train accuracy is: 0.97527
+2024-09-22 00:30:34,273 - Model - INFO - eval mIoU of carrage_support 0.801158
+2024-09-22 00:30:34,273 - Model - INFO - eval mIoU of crane          0.954022
+2024-09-22 00:30:34,274 - Model - INFO - eval mIoU of crane_suspension_bracket 0.547121
+2024-09-22 00:30:34,274 - Model - INFO - Epoch 141 test Accuracy: 0.893547  Class avg mIOU: 0.767434   Inctance avg mIOU: 0.768522
+2024-09-22 00:30:34,275 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:30:34,275 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:30:34,275 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:30:34,282 - Model - INFO - Epoch 142 (142/150):
+2024-09-22 00:30:34,283 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:33:27,861 - Model - INFO - Train accuracy is: 0.97450
+2024-09-22 00:33:47,338 - Model - INFO - eval mIoU of carrage_support 0.808683
+2024-09-22 00:33:47,338 - Model - INFO - eval mIoU of crane          0.956084
+2024-09-22 00:33:47,338 - Model - INFO - eval mIoU of crane_suspension_bracket 0.541413
+2024-09-22 00:33:47,338 - Model - INFO - Epoch 142 test Accuracy: 0.897114  Class avg mIOU: 0.768727   Inctance avg mIOU: 0.770016
+2024-09-22 00:33:47,339 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:33:47,339 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:33:47,339 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:33:47,349 - Model - INFO - Epoch 143 (143/150):
+2024-09-22 00:33:47,349 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:36:40,684 - Model - INFO - Train accuracy is: 0.97558
+2024-09-22 00:37:00,259 - Model - INFO - eval mIoU of carrage_support 0.802788
+2024-09-22 00:37:00,260 - Model - INFO - eval mIoU of crane          0.951785
+2024-09-22 00:37:00,260 - Model - INFO - eval mIoU of crane_suspension_bracket 0.532381
+2024-09-22 00:37:00,260 - Model - INFO - Epoch 143 test Accuracy: 0.894185  Class avg mIOU: 0.762318   Inctance avg mIOU: 0.763623
+2024-09-22 00:37:00,261 - Model - INFO - Best accuracy is: 0.90057
+2024-09-22 00:37:00,261 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:37:00,261 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:37:00,271 - Model - INFO - Epoch 144 (144/150):
+2024-09-22 00:37:00,271 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:39:53,889 - Model - INFO - Train accuracy is: 0.97536
+2024-09-22 00:40:13,422 - Model - INFO - eval mIoU of carrage_support 0.805172
+2024-09-22 00:40:13,423 - Model - INFO - eval mIoU of crane          0.958475
+2024-09-22 00:40:13,423 - Model - INFO - eval mIoU of crane_suspension_bracket 0.547312
+2024-09-22 00:40:13,424 - Model - INFO - Epoch 144 test Accuracy: 0.901548  Class avg mIOU: 0.770320   Inctance avg mIOU: 0.771444
+2024-09-22 00:40:13,424 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:40:13,424 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:40:13,425 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:40:13,432 - Model - INFO - Epoch 145 (145/150):
+2024-09-22 00:40:13,432 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:43:06,669 - Model - INFO - Train accuracy is: 0.97573
+2024-09-22 00:43:26,183 - Model - INFO - eval mIoU of carrage_support 0.797977
+2024-09-22 00:43:26,184 - Model - INFO - eval mIoU of crane          0.955666
+2024-09-22 00:43:26,184 - Model - INFO - eval mIoU of crane_suspension_bracket 0.539252
+2024-09-22 00:43:26,184 - Model - INFO - Epoch 145 test Accuracy: 0.891098  Class avg mIOU: 0.764298   Inctance avg mIOU: 0.765384
+2024-09-22 00:43:26,185 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:43:26,185 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:43:26,185 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:43:26,192 - Model - INFO - Epoch 146 (146/150):
+2024-09-22 00:43:26,192 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:46:19,569 - Model - INFO - Train accuracy is: 0.97601
+2024-09-22 00:46:39,088 - Model - INFO - eval mIoU of carrage_support 0.808309
+2024-09-22 00:46:39,088 - Model - INFO - eval mIoU of crane          0.954189
+2024-09-22 00:46:39,089 - Model - INFO - eval mIoU of crane_suspension_bracket 0.546509
+2024-09-22 00:46:39,089 - Model - INFO - Epoch 146 test Accuracy: 0.894579  Class avg mIOU: 0.769669   Inctance avg mIOU: 0.770915
+2024-09-22 00:46:39,089 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:46:39,090 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:46:39,090 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:46:39,096 - Model - INFO - Epoch 147 (147/150):
+2024-09-22 00:46:39,097 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:49:32,285 - Model - INFO - Train accuracy is: 0.97462
+2024-09-22 00:49:51,867 - Model - INFO - eval mIoU of carrage_support 0.813623
+2024-09-22 00:49:51,867 - Model - INFO - eval mIoU of crane          0.959432
+2024-09-22 00:49:51,868 - Model - INFO - eval mIoU of crane_suspension_bracket 0.517522
+2024-09-22 00:49:51,868 - Model - INFO - Epoch 147 test Accuracy: 0.897792  Class avg mIOU: 0.763526   Inctance avg mIOU: 0.765142
+2024-09-22 00:49:51,868 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:49:51,869 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:49:51,869 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:49:51,877 - Model - INFO - Epoch 148 (148/150):
+2024-09-22 00:49:51,878 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:52:45,195 - Model - INFO - Train accuracy is: 0.97602
+2024-09-22 00:53:04,716 - Model - INFO - eval mIoU of carrage_support 0.806258
+2024-09-22 00:53:04,716 - Model - INFO - eval mIoU of crane          0.961176
+2024-09-22 00:53:04,717 - Model - INFO - eval mIoU of crane_suspension_bracket 0.517646
+2024-09-22 00:53:04,717 - Model - INFO - Epoch 148 test Accuracy: 0.897453  Class avg mIOU: 0.761693   Inctance avg mIOU: 0.763131
+2024-09-22 00:53:04,718 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:53:04,718 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:53:04,718 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:53:04,726 - Model - INFO - Epoch 149 (149/150):
+2024-09-22 00:53:04,726 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:55:57,971 - Model - INFO - Train accuracy is: 0.97558
+2024-09-22 00:56:17,554 - Model - INFO - eval mIoU of carrage_support 0.797576
+2024-09-22 00:56:17,554 - Model - INFO - eval mIoU of crane          0.950597
+2024-09-22 00:56:17,555 - Model - INFO - eval mIoU of crane_suspension_bracket 0.554638
+2024-09-22 00:56:17,556 - Model - INFO - Epoch 149 test Accuracy: 0.896862  Class avg mIOU: 0.767604   Inctance avg mIOU: 0.768570
+2024-09-22 00:56:17,556 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:56:17,556 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:56:17,556 - Model - INFO - Best inctance avg mIOU is: 0.77425
+2024-09-22 00:56:17,564 - Model - INFO - Epoch 150 (150/150):
+2024-09-22 00:56:17,564 - Model - INFO - Learning rate:0.000010
+2024-09-22 00:59:10,971 - Model - INFO - Train accuracy is: 0.97457
+2024-09-22 00:59:30,455 - Model - INFO - eval mIoU of carrage_support 0.793880
+2024-09-22 00:59:30,455 - Model - INFO - eval mIoU of crane          0.950406
+2024-09-22 00:59:30,456 - Model - INFO - eval mIoU of crane_suspension_bracket 0.536002
+2024-09-22 00:59:30,456 - Model - INFO - Epoch 150 test Accuracy: 0.894177  Class avg mIOU: 0.760096   Inctance avg mIOU: 0.761186
+2024-09-22 00:59:30,456 - Model - INFO - Best accuracy is: 0.90155
+2024-09-22 00:59:30,457 - Model - INFO - Best class avg mIOU is: 0.77319
+2024-09-22 00:59:30,457 - Model - INFO - Best inctance avg mIOU is: 0.77425

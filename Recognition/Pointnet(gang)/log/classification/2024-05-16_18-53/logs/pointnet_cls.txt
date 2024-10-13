@@ -1,0 +1,316 @@
+2024-05-16 18:53:24,062 - Model - INFO - PARAMETER ...
+2024-05-16 18:53:24,063 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=12, model='pointnet_cls', num_category=6, epoch=150, learning_rate=0.001, num_point=1024, optimizer='Adam', log_dir=None, decay_rate=0.0001, use_normals=False, process_data=False, use_uniform_sample=False)
+2024-05-16 18:53:24,064 - Model - INFO - Load dataset ...
+2024-05-16 18:53:25,466 - Model - INFO - No existing model, starting training from scratch...
+2024-05-16 18:53:25,859 - Model - INFO - Start training...
+2024-05-16 18:53:25,859 - Model - INFO - Epoch 1 (1/150):
+2024-05-16 18:53:54,068 - Model - INFO - Train Instance Accuracy: 0.425439
+2024-05-16 18:53:59,918 - Model - INFO - Test Instance Accuracy: 0.341667, Class Accuracy: 0.166667
+2024-05-16 18:53:59,918 - Model - INFO - Best Instance Accuracy: 0.341667, Class Accuracy: 0.166667
+2024-05-16 18:53:59,918 - Model - INFO - Save model...
+2024-05-16 18:53:59,918 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 18:54:00,091 - Model - INFO - Epoch 2 (2/150):
+2024-05-16 18:54:29,207 - Model - INFO - Train Instance Accuracy: 0.552632
+2024-05-16 18:54:35,062 - Model - INFO - Test Instance Accuracy: 0.550000, Class Accuracy: 0.373843
+2024-05-16 18:54:35,062 - Model - INFO - Best Instance Accuracy: 0.550000, Class Accuracy: 0.373843
+2024-05-16 18:54:35,062 - Model - INFO - Save model...
+2024-05-16 18:54:35,063 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 18:54:35,248 - Model - INFO - Epoch 3 (3/150):
+2024-05-16 18:55:04,033 - Model - INFO - Train Instance Accuracy: 0.572368
+2024-05-16 18:55:09,849 - Model - INFO - Test Instance Accuracy: 0.525000, Class Accuracy: 0.354167
+2024-05-16 18:55:09,849 - Model - INFO - Best Instance Accuracy: 0.550000, Class Accuracy: 0.373843
+2024-05-16 18:55:09,850 - Model - INFO - Epoch 4 (4/150):
+2024-05-16 18:55:39,297 - Model - INFO - Train Instance Accuracy: 0.567982
+2024-05-16 18:55:45,325 - Model - INFO - Test Instance Accuracy: 0.591667, Class Accuracy: 0.433102
+2024-05-16 18:55:45,325 - Model - INFO - Best Instance Accuracy: 0.591667, Class Accuracy: 0.433102
+2024-05-16 18:55:45,326 - Model - INFO - Save model...
+2024-05-16 18:55:45,326 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 18:55:45,486 - Model - INFO - Epoch 5 (5/150):
+2024-05-16 18:56:14,824 - Model - INFO - Train Instance Accuracy: 0.603070
+2024-05-16 18:56:20,770 - Model - INFO - Test Instance Accuracy: 0.483333, Class Accuracy: 0.297917
+2024-05-16 18:56:20,770 - Model - INFO - Best Instance Accuracy: 0.591667, Class Accuracy: 0.433102
+2024-05-16 18:56:20,771 - Model - INFO - Epoch 6 (6/150):
+2024-05-16 18:56:50,229 - Model - INFO - Train Instance Accuracy: 0.618421
+2024-05-16 18:56:56,085 - Model - INFO - Test Instance Accuracy: 0.633333, Class Accuracy: 0.487269
+2024-05-16 18:56:56,086 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.487269
+2024-05-16 18:56:56,086 - Model - INFO - Save model...
+2024-05-16 18:56:56,086 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 18:56:56,254 - Model - INFO - Epoch 7 (7/150):
+2024-05-16 18:57:25,883 - Model - INFO - Train Instance Accuracy: 0.635965
+2024-05-16 18:57:31,849 - Model - INFO - Test Instance Accuracy: 0.550000, Class Accuracy: 0.353009
+2024-05-16 18:57:31,849 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.487269
+2024-05-16 18:57:31,850 - Model - INFO - Epoch 8 (8/150):
+2024-05-16 18:58:00,904 - Model - INFO - Train Instance Accuracy: 0.600877
+2024-05-16 18:58:06,803 - Model - INFO - Test Instance Accuracy: 0.608333, Class Accuracy: 0.465278
+2024-05-16 18:58:06,804 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.487269
+2024-05-16 18:58:06,804 - Model - INFO - Epoch 9 (9/150):
+2024-05-16 18:58:36,091 - Model - INFO - Train Instance Accuracy: 0.651316
+2024-05-16 18:58:41,971 - Model - INFO - Test Instance Accuracy: 0.450000, Class Accuracy: 0.303241
+2024-05-16 18:58:41,971 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.487269
+2024-05-16 18:58:41,971 - Model - INFO - Epoch 10 (10/150):
+2024-05-16 18:59:11,481 - Model - INFO - Train Instance Accuracy: 0.620614
+2024-05-16 18:59:17,770 - Model - INFO - Test Instance Accuracy: 0.541667, Class Accuracy: 0.524327
+2024-05-16 18:59:17,770 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.524327
+2024-05-16 18:59:17,771 - Model - INFO - Epoch 11 (11/150):
+2024-05-16 18:59:47,010 - Model - INFO - Train Instance Accuracy: 0.649123
+2024-05-16 18:59:52,722 - Model - INFO - Test Instance Accuracy: 0.625000, Class Accuracy: 0.487731
+2024-05-16 18:59:52,723 - Model - INFO - Best Instance Accuracy: 0.633333, Class Accuracy: 0.524327
+2024-05-16 18:59:52,723 - Model - INFO - Epoch 12 (12/150):
+2024-05-16 19:00:22,211 - Model - INFO - Train Instance Accuracy: 0.653509
+2024-05-16 19:00:28,065 - Model - INFO - Test Instance Accuracy: 0.641667, Class Accuracy: 0.490972
+2024-05-16 19:00:28,065 - Model - INFO - Best Instance Accuracy: 0.641667, Class Accuracy: 0.524327
+2024-05-16 19:00:28,065 - Model - INFO - Save model...
+2024-05-16 19:00:28,065 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:00:28,262 - Model - INFO - Epoch 13 (13/150):
+2024-05-16 19:00:57,338 - Model - INFO - Train Instance Accuracy: 0.627193
+2024-05-16 19:01:03,250 - Model - INFO - Test Instance Accuracy: 0.641667, Class Accuracy: 0.501389
+2024-05-16 19:01:03,251 - Model - INFO - Best Instance Accuracy: 0.641667, Class Accuracy: 0.524327
+2024-05-16 19:01:03,251 - Model - INFO - Save model...
+2024-05-16 19:01:03,251 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:01:03,430 - Model - INFO - Epoch 14 (14/150):
+2024-05-16 19:01:32,685 - Model - INFO - Train Instance Accuracy: 0.666667
+2024-05-16 19:01:38,762 - Model - INFO - Test Instance Accuracy: 0.625000, Class Accuracy: 0.465046
+2024-05-16 19:01:38,763 - Model - INFO - Best Instance Accuracy: 0.641667, Class Accuracy: 0.524327
+2024-05-16 19:01:38,763 - Model - INFO - Epoch 15 (15/150):
+2024-05-16 19:02:08,135 - Model - INFO - Train Instance Accuracy: 0.684211
+2024-05-16 19:02:14,125 - Model - INFO - Test Instance Accuracy: 0.588889, Class Accuracy: 0.458965
+2024-05-16 19:02:14,125 - Model - INFO - Best Instance Accuracy: 0.641667, Class Accuracy: 0.524327
+2024-05-16 19:02:14,125 - Model - INFO - Epoch 16 (16/150):
+2024-05-16 19:02:42,725 - Model - INFO - Train Instance Accuracy: 0.660088
+2024-05-16 19:02:48,707 - Model - INFO - Test Instance Accuracy: 0.650000, Class Accuracy: 0.510880
+2024-05-16 19:02:48,708 - Model - INFO - Best Instance Accuracy: 0.650000, Class Accuracy: 0.524327
+2024-05-16 19:02:48,708 - Model - INFO - Save model...
+2024-05-16 19:02:48,708 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:02:48,915 - Model - INFO - Epoch 17 (17/150):
+2024-05-16 19:03:17,924 - Model - INFO - Train Instance Accuracy: 0.664474
+2024-05-16 19:03:24,152 - Model - INFO - Test Instance Accuracy: 0.625000, Class Accuracy: 0.443519
+2024-05-16 19:03:24,152 - Model - INFO - Best Instance Accuracy: 0.650000, Class Accuracy: 0.524327
+2024-05-16 19:03:24,152 - Model - INFO - Epoch 18 (18/150):
+2024-05-16 19:03:52,896 - Model - INFO - Train Instance Accuracy: 0.708333
+2024-05-16 19:03:59,229 - Model - INFO - Test Instance Accuracy: 0.675000, Class Accuracy: 0.554630
+2024-05-16 19:03:59,229 - Model - INFO - Best Instance Accuracy: 0.675000, Class Accuracy: 0.554630
+2024-05-16 19:03:59,229 - Model - INFO - Save model...
+2024-05-16 19:03:59,230 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:03:59,416 - Model - INFO - Epoch 19 (19/150):
+2024-05-16 19:04:28,427 - Model - INFO - Train Instance Accuracy: 0.673246
+2024-05-16 19:04:34,845 - Model - INFO - Test Instance Accuracy: 0.658333, Class Accuracy: 0.547959
+2024-05-16 19:04:34,846 - Model - INFO - Best Instance Accuracy: 0.675000, Class Accuracy: 0.554630
+2024-05-16 19:04:34,846 - Model - INFO - Epoch 20 (20/150):
+2024-05-16 19:05:03,753 - Model - INFO - Train Instance Accuracy: 0.677632
+2024-05-16 19:05:10,253 - Model - INFO - Test Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:05:10,254 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:05:10,254 - Model - INFO - Save model...
+2024-05-16 19:05:10,254 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:05:10,466 - Model - INFO - Epoch 21 (21/150):
+2024-05-16 19:05:39,053 - Model - INFO - Train Instance Accuracy: 0.708333
+2024-05-16 19:05:45,673 - Model - INFO - Test Instance Accuracy: 0.627778, Class Accuracy: 0.590067
+2024-05-16 19:05:45,673 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:05:45,674 - Model - INFO - Epoch 22 (22/150):
+2024-05-16 19:06:14,343 - Model - INFO - Train Instance Accuracy: 0.703947
+2024-05-16 19:06:20,837 - Model - INFO - Test Instance Accuracy: 0.650000, Class Accuracy: 0.584070
+2024-05-16 19:06:20,838 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:06:20,838 - Model - INFO - Epoch 23 (23/150):
+2024-05-16 19:06:49,778 - Model - INFO - Train Instance Accuracy: 0.728070
+2024-05-16 19:06:56,691 - Model - INFO - Test Instance Accuracy: 0.666667, Class Accuracy: 0.531019
+2024-05-16 19:06:56,693 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:06:56,694 - Model - INFO - Epoch 24 (24/150):
+2024-05-16 19:07:25,630 - Model - INFO - Train Instance Accuracy: 0.745614
+2024-05-16 19:07:32,169 - Model - INFO - Test Instance Accuracy: 0.650000, Class Accuracy: 0.544213
+2024-05-16 19:07:32,169 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:07:32,170 - Model - INFO - Epoch 25 (25/150):
+2024-05-16 19:08:00,914 - Model - INFO - Train Instance Accuracy: 0.719298
+2024-05-16 19:08:07,427 - Model - INFO - Test Instance Accuracy: 0.630556, Class Accuracy: 0.543561
+2024-05-16 19:08:07,428 - Model - INFO - Best Instance Accuracy: 0.680556, Class Accuracy: 0.590909
+2024-05-16 19:08:07,428 - Model - INFO - Epoch 26 (26/150):
+2024-05-16 19:08:36,532 - Model - INFO - Train Instance Accuracy: 0.741228
+2024-05-16 19:08:43,171 - Model - INFO - Test Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:08:43,172 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:08:43,173 - Model - INFO - Save model...
+2024-05-16 19:08:43,173 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:08:43,336 - Model - INFO - Epoch 27 (27/150):
+2024-05-16 19:09:12,029 - Model - INFO - Train Instance Accuracy: 0.732456
+2024-05-16 19:09:18,625 - Model - INFO - Test Instance Accuracy: 0.630556, Class Accuracy: 0.580595
+2024-05-16 19:09:18,626 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:09:18,626 - Model - INFO - Epoch 28 (28/150):
+2024-05-16 19:09:47,477 - Model - INFO - Train Instance Accuracy: 0.723684
+2024-05-16 19:09:54,025 - Model - INFO - Test Instance Accuracy: 0.641667, Class Accuracy: 0.550346
+2024-05-16 19:09:54,025 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:09:54,026 - Model - INFO - Epoch 29 (29/150):
+2024-05-16 19:10:22,513 - Model - INFO - Train Instance Accuracy: 0.763158
+2024-05-16 19:10:29,547 - Model - INFO - Test Instance Accuracy: 0.658333, Class Accuracy: 0.563666
+2024-05-16 19:10:29,547 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:10:29,549 - Model - INFO - Epoch 30 (30/150):
+2024-05-16 19:10:57,895 - Model - INFO - Train Instance Accuracy: 0.717105
+2024-05-16 19:11:04,389 - Model - INFO - Test Instance Accuracy: 0.616667, Class Accuracy: 0.502787
+2024-05-16 19:11:04,389 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:11:04,390 - Model - INFO - Epoch 31 (31/150):
+2024-05-16 19:11:32,985 - Model - INFO - Train Instance Accuracy: 0.780702
+2024-05-16 19:11:39,616 - Model - INFO - Test Instance Accuracy: 0.652778, Class Accuracy: 0.561258
+2024-05-16 19:11:39,616 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:11:39,617 - Model - INFO - Epoch 32 (32/150):
+2024-05-16 19:12:08,605 - Model - INFO - Train Instance Accuracy: 0.736842
+2024-05-16 19:12:15,286 - Model - INFO - Test Instance Accuracy: 0.630556, Class Accuracy: 0.564728
+2024-05-16 19:12:15,288 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:12:15,288 - Model - INFO - Epoch 33 (33/150):
+2024-05-16 19:12:43,949 - Model - INFO - Train Instance Accuracy: 0.789474
+2024-05-16 19:12:50,631 - Model - INFO - Test Instance Accuracy: 0.688889, Class Accuracy: 0.627065
+2024-05-16 19:12:50,632 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:12:50,633 - Model - INFO - Save model...
+2024-05-16 19:12:50,633 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:12:50,798 - Model - INFO - Epoch 34 (34/150):
+2024-05-16 19:13:19,605 - Model - INFO - Train Instance Accuracy: 0.736842
+2024-05-16 19:13:26,605 - Model - INFO - Test Instance Accuracy: 0.663889, Class Accuracy: 0.569685
+2024-05-16 19:13:26,605 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:13:26,606 - Model - INFO - Epoch 35 (35/150):
+2024-05-16 19:13:55,492 - Model - INFO - Train Instance Accuracy: 0.763158
+2024-05-16 19:14:01,968 - Model - INFO - Test Instance Accuracy: 0.672222, Class Accuracy: 0.640620
+2024-05-16 19:14:01,969 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:14:01,969 - Model - INFO - Epoch 36 (36/150):
+2024-05-16 19:14:30,761 - Model - INFO - Train Instance Accuracy: 0.728070
+2024-05-16 19:14:37,478 - Model - INFO - Test Instance Accuracy: 0.630556, Class Accuracy: 0.518001
+2024-05-16 19:14:37,478 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:14:37,479 - Model - INFO - Epoch 37 (37/150):
+2024-05-16 19:15:06,115 - Model - INFO - Train Instance Accuracy: 0.750000
+2024-05-16 19:15:12,692 - Model - INFO - Test Instance Accuracy: 0.672222, Class Accuracy: 0.631403
+2024-05-16 19:15:12,693 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:15:12,693 - Model - INFO - Epoch 38 (38/150):
+2024-05-16 19:15:41,656 - Model - INFO - Train Instance Accuracy: 0.787281
+2024-05-16 19:15:48,235 - Model - INFO - Test Instance Accuracy: 0.661111, Class Accuracy: 0.638579
+2024-05-16 19:15:48,235 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:15:48,235 - Model - INFO - Epoch 39 (39/150):
+2024-05-16 19:16:16,998 - Model - INFO - Train Instance Accuracy: 0.798246
+2024-05-16 19:16:23,479 - Model - INFO - Test Instance Accuracy: 0.625000, Class Accuracy: 0.564631
+2024-05-16 19:16:23,479 - Model - INFO - Best Instance Accuracy: 0.688889, Class Accuracy: 0.650472
+2024-05-16 19:16:23,479 - Model - INFO - Epoch 40 (40/150):
+2024-05-16 19:16:52,147 - Model - INFO - Train Instance Accuracy: 0.769737
+2024-05-16 19:16:58,780 - Model - INFO - Test Instance Accuracy: 0.708333, Class Accuracy: 0.607290
+2024-05-16 19:16:58,780 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.650472
+2024-05-16 19:16:58,780 - Model - INFO - Save model...
+2024-05-16 19:16:58,780 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:16:58,942 - Model - INFO - Epoch 41 (41/150):
+2024-05-16 19:17:27,658 - Model - INFO - Train Instance Accuracy: 0.789474
+2024-05-16 19:17:34,182 - Model - INFO - Test Instance Accuracy: 0.658333, Class Accuracy: 0.615191
+2024-05-16 19:17:34,182 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.650472
+2024-05-16 19:17:34,183 - Model - INFO - Epoch 42 (42/150):
+2024-05-16 19:18:03,484 - Model - INFO - Train Instance Accuracy: 0.793860
+2024-05-16 19:18:09,965 - Model - INFO - Test Instance Accuracy: 0.663889, Class Accuracy: 0.599251
+2024-05-16 19:18:09,966 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.650472
+2024-05-16 19:18:09,966 - Model - INFO - Epoch 43 (43/150):
+2024-05-16 19:18:38,317 - Model - INFO - Train Instance Accuracy: 0.842105
+2024-05-16 19:18:44,897 - Model - INFO - Test Instance Accuracy: 0.697222, Class Accuracy: 0.665548
+2024-05-16 19:18:44,898 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:18:44,898 - Model - INFO - Epoch 44 (44/150):
+2024-05-16 19:19:14,155 - Model - INFO - Train Instance Accuracy: 0.817982
+2024-05-16 19:19:20,746 - Model - INFO - Test Instance Accuracy: 0.663889, Class Accuracy: 0.635326
+2024-05-16 19:19:20,747 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:19:20,747 - Model - INFO - Epoch 45 (45/150):
+2024-05-16 19:19:49,499 - Model - INFO - Train Instance Accuracy: 0.839912
+2024-05-16 19:19:56,045 - Model - INFO - Test Instance Accuracy: 0.700000, Class Accuracy: 0.614496
+2024-05-16 19:19:56,046 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:19:56,046 - Model - INFO - Epoch 46 (46/150):
+2024-05-16 19:20:25,314 - Model - INFO - Train Instance Accuracy: 0.833333
+2024-05-16 19:20:32,224 - Model - INFO - Test Instance Accuracy: 0.675000, Class Accuracy: 0.570118
+2024-05-16 19:20:32,225 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:20:32,226 - Model - INFO - Epoch 47 (47/150):
+2024-05-16 19:21:01,065 - Model - INFO - Train Instance Accuracy: 0.853070
+2024-05-16 19:21:07,631 - Model - INFO - Test Instance Accuracy: 0.688889, Class Accuracy: 0.610961
+2024-05-16 19:21:07,632 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:21:07,632 - Model - INFO - Epoch 48 (48/150):
+2024-05-16 19:21:36,409 - Model - INFO - Train Instance Accuracy: 0.807018
+2024-05-16 19:21:43,043 - Model - INFO - Test Instance Accuracy: 0.700000, Class Accuracy: 0.626828
+2024-05-16 19:21:43,043 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:21:43,043 - Model - INFO - Epoch 49 (49/150):
+2024-05-16 19:22:11,850 - Model - INFO - Train Instance Accuracy: 0.837719
+2024-05-16 19:22:18,366 - Model - INFO - Test Instance Accuracy: 0.663889, Class Accuracy: 0.563772
+2024-05-16 19:22:18,366 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:22:18,367 - Model - INFO - Epoch 50 (50/150):
+2024-05-16 19:22:47,448 - Model - INFO - Train Instance Accuracy: 0.828947
+2024-05-16 19:22:54,088 - Model - INFO - Test Instance Accuracy: 0.688889, Class Accuracy: 0.625472
+2024-05-16 19:22:54,088 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:22:54,089 - Model - INFO - Epoch 51 (51/150):
+2024-05-16 19:23:23,075 - Model - INFO - Train Instance Accuracy: 0.800439
+2024-05-16 19:23:29,870 - Model - INFO - Test Instance Accuracy: 0.680556, Class Accuracy: 0.611192
+2024-05-16 19:23:29,870 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:23:29,871 - Model - INFO - Epoch 52 (52/150):
+2024-05-16 19:23:59,222 - Model - INFO - Train Instance Accuracy: 0.817982
+2024-05-16 19:24:05,844 - Model - INFO - Test Instance Accuracy: 0.655556, Class Accuracy: 0.572105
+2024-05-16 19:24:05,844 - Model - INFO - Best Instance Accuracy: 0.708333, Class Accuracy: 0.665548
+2024-05-16 19:24:05,845 - Model - INFO - Epoch 53 (53/150):
+2024-05-16 19:24:35,021 - Model - INFO - Train Instance Accuracy: 0.868421
+2024-05-16 19:24:41,558 - Model - INFO - Test Instance Accuracy: 0.733333, Class Accuracy: 0.615759
+2024-05-16 19:24:41,559 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:24:41,559 - Model - INFO - Save model...
+2024-05-16 19:24:41,559 - Model - INFO - Saving at log\classification\2024-05-16_18-53\checkpoints/best_model.pth
+2024-05-16 19:24:41,757 - Model - INFO - Epoch 54 (54/150):
+2024-05-16 19:25:10,544 - Model - INFO - Train Instance Accuracy: 0.807018
+2024-05-16 19:25:17,067 - Model - INFO - Test Instance Accuracy: 0.700000, Class Accuracy: 0.641904
+2024-05-16 19:25:17,067 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:25:17,068 - Model - INFO - Epoch 55 (55/150):
+2024-05-16 19:25:46,600 - Model - INFO - Train Instance Accuracy: 0.844298
+2024-05-16 19:25:53,179 - Model - INFO - Test Instance Accuracy: 0.655556, Class Accuracy: 0.585826
+2024-05-16 19:25:53,179 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:25:53,180 - Model - INFO - Epoch 56 (56/150):
+2024-05-16 19:26:22,125 - Model - INFO - Train Instance Accuracy: 0.848684
+2024-05-16 19:26:29,256 - Model - INFO - Test Instance Accuracy: 0.683333, Class Accuracy: 0.572198
+2024-05-16 19:26:29,256 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:26:29,257 - Model - INFO - Epoch 57 (57/150):
+2024-05-16 19:27:00,171 - Model - INFO - Train Instance Accuracy: 0.842105
+2024-05-16 19:27:07,187 - Model - INFO - Test Instance Accuracy: 0.705556, Class Accuracy: 0.635994
+2024-05-16 19:27:07,188 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:27:07,188 - Model - INFO - Epoch 58 (58/150):
+2024-05-16 19:27:36,971 - Model - INFO - Train Instance Accuracy: 0.870614
+2024-05-16 19:27:43,808 - Model - INFO - Test Instance Accuracy: 0.677778, Class Accuracy: 0.618696
+2024-05-16 19:27:43,808 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:27:43,809 - Model - INFO - Epoch 59 (59/150):
+2024-05-16 19:28:13,707 - Model - INFO - Train Instance Accuracy: 0.857456
+2024-05-16 19:28:20,664 - Model - INFO - Test Instance Accuracy: 0.705556, Class Accuracy: 0.599883
+2024-05-16 19:28:20,664 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:28:20,664 - Model - INFO - Epoch 60 (60/150):
+2024-05-16 19:28:51,180 - Model - INFO - Train Instance Accuracy: 0.888158
+2024-05-16 19:28:58,467 - Model - INFO - Test Instance Accuracy: 0.705556, Class Accuracy: 0.603154
+2024-05-16 19:28:58,468 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:28:58,468 - Model - INFO - Epoch 61 (61/150):
+2024-05-16 19:29:28,810 - Model - INFO - Train Instance Accuracy: 0.870614
+2024-05-16 19:29:35,633 - Model - INFO - Test Instance Accuracy: 0.697222, Class Accuracy: 0.657056
+2024-05-16 19:29:35,633 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:29:35,633 - Model - INFO - Epoch 62 (62/150):
+2024-05-16 19:30:05,114 - Model - INFO - Train Instance Accuracy: 0.890351
+2024-05-16 19:30:12,260 - Model - INFO - Test Instance Accuracy: 0.730556, Class Accuracy: 0.659572
+2024-05-16 19:30:12,260 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:30:12,261 - Model - INFO - Epoch 63 (63/150):
+2024-05-16 19:30:42,483 - Model - INFO - Train Instance Accuracy: 0.883772
+2024-05-16 19:30:49,682 - Model - INFO - Test Instance Accuracy: 0.688889, Class Accuracy: 0.595611
+2024-05-16 19:30:49,682 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:30:49,683 - Model - INFO - Epoch 64 (64/150):
+2024-05-16 19:31:20,041 - Model - INFO - Train Instance Accuracy: 0.899123
+2024-05-16 19:31:26,933 - Model - INFO - Test Instance Accuracy: 0.647222, Class Accuracy: 0.548494
+2024-05-16 19:31:26,936 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:31:26,937 - Model - INFO - Epoch 65 (65/150):
+2024-05-16 19:31:58,406 - Model - INFO - Train Instance Accuracy: 0.896930
+2024-05-16 19:32:05,471 - Model - INFO - Test Instance Accuracy: 0.697222, Class Accuracy: 0.630069
+2024-05-16 19:32:05,471 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:32:05,471 - Model - INFO - Epoch 66 (66/150):
+2024-05-16 19:32:35,798 - Model - INFO - Train Instance Accuracy: 0.844298
+2024-05-16 19:32:43,016 - Model - INFO - Test Instance Accuracy: 0.705556, Class Accuracy: 0.586815
+2024-05-16 19:32:43,016 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:32:43,017 - Model - INFO - Epoch 67 (67/150):
+2024-05-16 19:33:12,749 - Model - INFO - Train Instance Accuracy: 0.881579
+2024-05-16 19:33:20,125 - Model - INFO - Test Instance Accuracy: 0.680556, Class Accuracy: 0.606331
+2024-05-16 19:33:20,126 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:33:20,127 - Model - INFO - Epoch 68 (68/150):
+2024-05-16 19:33:49,726 - Model - INFO - Train Instance Accuracy: 0.888158
+2024-05-16 19:33:56,603 - Model - INFO - Test Instance Accuracy: 0.730556, Class Accuracy: 0.651533
+2024-05-16 19:33:56,604 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:33:56,604 - Model - INFO - Epoch 69 (69/150):
+2024-05-16 19:34:26,975 - Model - INFO - Train Instance Accuracy: 0.901316
+2024-05-16 19:34:34,072 - Model - INFO - Test Instance Accuracy: 0.697222, Class Accuracy: 0.594959
+2024-05-16 19:34:34,073 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:34:34,074 - Model - INFO - Epoch 70 (70/150):
+2024-05-16 19:35:04,033 - Model - INFO - Train Instance Accuracy: 0.916667
+2024-05-16 19:35:10,975 - Model - INFO - Test Instance Accuracy: 0.705556, Class Accuracy: 0.634930
+2024-05-16 19:35:10,975 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:35:10,975 - Model - INFO - Epoch 71 (71/150):
+2024-05-16 19:35:40,591 - Model - INFO - Train Instance Accuracy: 0.910088
+2024-05-16 19:35:47,805 - Model - INFO - Test Instance Accuracy: 0.663889, Class Accuracy: 0.577092
+2024-05-16 19:35:47,805 - Model - INFO - Best Instance Accuracy: 0.733333, Class Accuracy: 0.665548
+2024-05-16 19:35:47,805 - Model - INFO - Epoch 72 (72/150):

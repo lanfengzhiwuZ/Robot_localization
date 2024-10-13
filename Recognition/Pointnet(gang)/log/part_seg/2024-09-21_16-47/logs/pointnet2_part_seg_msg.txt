@@ -1,0 +1,31 @@
+2024-09-21 16:47:00,918 - Model - INFO - PARAMETER ...
+2024-09-21 16:47:00,918 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=16, epoch=2, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir=None, decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-09-21 16:47:00,965 - Model - INFO - The number of training data is: 244
+2024-09-21 16:47:00,966 - Model - INFO - The number of test data is: 62
+2024-09-21 16:47:02,391 - Model - INFO - No existing model, starting training from scratch...
+2024-09-21 16:47:02,770 - Model - INFO - Epoch 1 (1/2):
+2024-09-21 16:47:02,770 - Model - INFO - Learning rate:0.001000
+2024-09-21 16:49:56,298 - Model - INFO - Train accuracy is: 0.44625
+2024-09-21 16:50:16,246 - Model - INFO - eval mIoU of carrage_support 0.407038
+2024-09-21 16:50:16,247 - Model - INFO - eval mIoU of crane          0.169739
+2024-09-21 16:50:16,247 - Model - INFO - eval mIoU of crane_suspension_bracket 0.296191
+2024-09-21 16:50:16,247 - Model - INFO - Epoch 1 test Accuracy: 0.555979  Class avg mIOU: 0.290989   Inctance avg mIOU: 0.294733
+2024-09-21 16:50:16,247 - Model - INFO - Save model...
+2024-09-21 16:50:16,247 - Model - INFO - Saving at log\part_seg\2024-09-21_16-47\checkpoints/best_model.pth
+2024-09-21 16:50:16,341 - Model - INFO - Saving model....
+2024-09-21 16:50:16,341 - Model - INFO - Best accuracy is: 0.55598
+2024-09-21 16:50:16,341 - Model - INFO - Best class avg mIOU is: 0.29099
+2024-09-21 16:50:16,342 - Model - INFO - Best inctance avg mIOU is: 0.29473
+2024-09-21 16:50:16,347 - Model - INFO - Epoch 2 (2/2):
+2024-09-21 16:50:16,347 - Model - INFO - Learning rate:0.001000
+2024-09-21 16:53:08,892 - Model - INFO - Train accuracy is: 0.70049
+2024-09-21 16:53:28,191 - Model - INFO - eval mIoU of carrage_support 0.409002
+2024-09-21 16:53:28,191 - Model - INFO - eval mIoU of crane          0.398171
+2024-09-21 16:53:28,192 - Model - INFO - eval mIoU of crane_suspension_bracket 0.308543
+2024-09-21 16:53:28,193 - Model - INFO - Epoch 2 test Accuracy: 0.629867  Class avg mIOU: 0.371905   Inctance avg mIOU: 0.373102
+2024-09-21 16:53:28,193 - Model - INFO - Save model...
+2024-09-21 16:53:28,193 - Model - INFO - Saving at log\part_seg\2024-09-21_16-47\checkpoints/best_model.pth
+2024-09-21 16:53:28,300 - Model - INFO - Saving model....
+2024-09-21 16:53:28,301 - Model - INFO - Best accuracy is: 0.62987
+2024-09-21 16:53:28,302 - Model - INFO - Best class avg mIOU is: 0.37191
+2024-09-21 16:53:28,302 - Model - INFO - Best inctance avg mIOU is: 0.37310
